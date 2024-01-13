@@ -1,11 +1,10 @@
 {
-	"version": "1.0.6",
+	"version": "1.0.5",
 	"gameIcon": "",
 	"gameIconSrcFilename": "",
 	"gameType": 1,
 	"playerCount": 1,
 	"mode30Fps": false,
-	"fix60FpsMode": false,
 	"tileWidth": 64,
 	"tileHeight": 64,
 	"screenWidth": 640,
@@ -21,8 +20,7 @@
 	"nxSoftResetKeyConfig": 0,
 	"nxReturnToLauncherKeyConfig": 0,
 	"nxMenuBarVisibleKeyConfig": 0,
-	"nxSupportForSingleJoyCon": true,
-	"nxPlayerVersion": "1.0.6",
+	"nxPlayerVersion": "1.0.5",
 	"gameVersion": "1.0",
 	"magnifyWindow":true,
 	"windowMagnification":2,
@@ -1686,7 +1684,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "7": 7, "6": 6, "8": 3, "11": 9, "10": 8, "1": 2, "3": 4 },
+					"objectSingleIdHash": { "6": 6, "7": 7, "1": 2, "3": 4, "8": 3, "10": 8, "11": 9 },
 			"folder": false
 				},
 				{
@@ -1752,37 +1750,6 @@
 						"name": "Layer 4"
 					},
 					"scenePartList": [
-							{
-			"id": 1,
-			"name": "Camera",
-			"partType": 2,
-			"layerIndex": -1,
-			"locked": false,
-			"visible": true,
-			"priority": 15,
-			"dispPriority": 0,
-
-	"othersType": 0,
-	"camera": {
-	"initialPlayerPosition": false,
-	"x": 0,
-	"y": 0,
-	"width": 640,
-	"height": 360,
-	"followTargetType": 0,
-	"objectId": -1,
-	"courseScenePartId": -1,
-	"startPointId": -1,
-	"scrollToShowAllPlayers": false,
-	"scaleToShowAllPlayers": false,
-	"maxScaling": 100.000000,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1
-}
-,
-			"folder": false
-		},
 							{
 			"id": 2,
 			"name": "crosshair",
@@ -3105,15 +3072,241 @@
 	"disappearActionCommandList": [  ]
 ,
 			"folder": false
+		},
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 15,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
+,
+			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "18": 6, "12": 3, "14": 5, "1": 2, "16": 4 },
+					"objectSingleIdHash": { "16": 4, "1": 2, "18": 6, "12": 3, "14": 5 },
+			"folder": false
+				},
+				{
+					"id": 1,
+					"name": "PlayerMap",
+					"horzScreenCount": 1,
+					"vertScreenCount": 1,
+					"tileset": [  ],
+					"memo": "",
+					"playBgmType": 1,
+					"bgmId": -1,
+					"loopBgmFlag": true,
+					"bgColorR": 0,
+					"bgColorG": 0,
+					"bgColorB": 0,
+					"setBgImageFlag": true,
+					"bgImageId": 15,
+					"bgImagePlacement": 0,
+					"bgImageMoveSpeed": 0,
+					"bgImageMoveDirection": 0,
+					"bgMoveSpeed": 100,
+					"bgMoveSpeedY": 100,
+					"layerMoveSpeed": [100, 100, 100, 100],
+					"layerMoveSpeedY": [100, 100, 100, 100],
+					"gravityAccel": 0,
+					"gravityDirection": 180,
+					"airResistance": 1,
+					"screenAutoScroll": false,
+					"screenAutoScrollSpeed": 0,
+					"screenAutoScrollDirection": 270,
+					"screenAutoScrollSwitchObjectId": -1,
+					"screenAutoScrollSwitchQualifierId": -1,
+					"screenAutoScrollSwitchId": -1,
+					"limitAreaX": 0,
+					"limitAreaY": 0,
+					"limitAreaWidth": 640,
+					"limitAreaHeight": 360,
+					"disableLimitArea": false,
+					"limitCameraX": 0,
+					"limitCameraY": 0,
+					"limitCameraWidth": 640,
+					"limitCameraHeight": 360,
+					"disableLimitCamera": false,
+					"initialMenuLayerId": -1,
+					"preloadMenuLayerIdList": [],
+					"sceneFilterEffectList": [
+					
+					],
+					"layer1": {
+						"tile": {												},
+						"name": "Layer 1"
+					},
+					"layer2": {
+						"tile": {												},
+						"name": "Layer 2"
+					},
+					"layer3": {
+						"tile": {												},
+						"name": "Layer 3"
+					},
+					"layer4": {
+						"tile": {												},
+						"name": "Layer 4"
+					},
+					"scenePartList": [
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 0,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
+,
+			"folder": false
+		}
+					],
+					"objectSingleIdHash": {  },
+			"folder": false
+				},
+				{
+					"id": 4,
+					"name": "PlayerPotionStation",
+					"horzScreenCount": 1,
+					"vertScreenCount": 1,
+					"tileset": [  ],
+					"memo": "",
+					"playBgmType": 1,
+					"bgmId": -1,
+					"loopBgmFlag": true,
+					"bgColorR": 0,
+					"bgColorG": 0,
+					"bgColorB": 0,
+					"setBgImageFlag": true,
+					"bgImageId": 16,
+					"bgImagePlacement": 0,
+					"bgImageMoveSpeed": 0,
+					"bgImageMoveDirection": 0,
+					"bgMoveSpeed": 100,
+					"bgMoveSpeedY": 100,
+					"layerMoveSpeed": [100, 100, 100, 100],
+					"layerMoveSpeedY": [100, 100, 100, 100],
+					"gravityAccel": 0,
+					"gravityDirection": 180,
+					"airResistance": 1,
+					"screenAutoScroll": false,
+					"screenAutoScrollSpeed": 0,
+					"screenAutoScrollDirection": 270,
+					"screenAutoScrollSwitchObjectId": -1,
+					"screenAutoScrollSwitchQualifierId": -1,
+					"screenAutoScrollSwitchId": -1,
+					"limitAreaX": 0,
+					"limitAreaY": 0,
+					"limitAreaWidth": 640,
+					"limitAreaHeight": 360,
+					"disableLimitArea": false,
+					"limitCameraX": 0,
+					"limitCameraY": 0,
+					"limitCameraWidth": 640,
+					"limitCameraHeight": 360,
+					"disableLimitCamera": false,
+					"initialMenuLayerId": -1,
+					"preloadMenuLayerIdList": [],
+					"sceneFilterEffectList": [
+					
+					],
+					"layer1": {
+						"tile": {												},
+						"name": "Layer 1"
+					},
+					"layer2": {
+						"tile": {												},
+						"name": "Layer 2"
+					},
+					"layer3": {
+						"tile": {												},
+						"name": "Layer 3"
+					},
+					"layer4": {
+						"tile": {												},
+						"name": "Layer 4"
+					},
+					"scenePartList": [
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 0,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
+,
+			"folder": false
+		}
+					],
+					"objectSingleIdHash": {  },
 			"folder": false
 				}
 	],
 	"tilesetList": [
-		{"id":1,"name":"tiles","tilesetType":0,"imageId":5,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":4,"vertTileCount":4,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false},
-		{"id":2,"name":"Shop","tilesetType":0,"imageId":14,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":10,"vertTileCount":5,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false}
+		{"id":1,"name":"tiles","tilesetType":0,"imageId":5,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":4,"vertTileCount":4,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false}
 	],
 	"imageList": [
 		{"id":1,"name":"font6x10","filename":"img/001.png","srcFilename":"","horzDivCount":1,"vertDivCount":1,			"folder": false},
@@ -3130,7 +3323,10 @@
 {"id":13,"name":"volueupdownpotion-Sheet","filename":"img/013.png","srcFilename":"I:/Games/myGames/Potion Poison/volueupdownpotion-Sheet.png","horzDivCount":2,"vertDivCount":1,					"folder": false}
 	]},
 		{"id":12,"name":"titleshelf","filename":"img/012.png","srcFilename":"I:/Games/myGames/Potion Poison/titleshelf.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
-		{"id":14,"name":"ShopWall","filename":"img/014.png","srcFilename":"I:/Games/myGames/Potion Poison/initialDesignIdeas.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
+		{"id":14,"name":"ShopWall","filename":"img/014.png","srcFilename":"I:/Games/myGames/Potion Poison/initialDesignIdeas.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
+		{"id":15,"name":"initialDesignMap","filename":"img/015.png","srcFilename":"E:/gameJam/initialDesignMap.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
+		{"id":16,"name":"initialDesignPotionMaking","filename":"img/016.png","srcFilename":"E:/gameJam/initialDesignPotionMaking.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
+		{"id":17,"name":"nextArea","filename":"img/017.png","srcFilename":"E:/gameJam/nextArea.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
 	],
 	"fontList": [
 				{
@@ -3633,7 +3829,7 @@
 	"switchList": [
 				{
 			"id": 1,
-			"name": "Initialize Resources",
+			"name": "Reset",
 			"initialValue": false,
 			"toBeSaved": true,
 			"memo": "",
@@ -12750,7 +12946,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 49, 72 ], [ 49, 23 ] ],
+	"coordList": [ [ 48, 72 ], [ 48, 23 ] ],
 	"endPointFactor": [ 648, 2052 ],
 	"visible": true,
 	"num": 0,
@@ -16867,6 +17063,18 @@
 			"originY": 0,
 			"resourceInfoList": [ { "id": 1, "image": true, "imageId": 10, "hdivCount": 2, "vdivCount": 1 }, { "id": 2, "image": true, "imageId": 13, "hdivCount": 2, "vdivCount": 1 }, { "id": 3, "image": true, "imageId": 11, "hdivCount": 2, "vdivCount": 1 }, { "id": 4, "image": true, "imageId": 8, "hdivCount": 2, "vdivCount": 1 } ],
 			"motionList": [ { "id": 2, "name": "creditsPotion", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 3, "name": "noPopPlaced", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 1, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 4, "centerY": 4, "scalingX": 500, "scalingY": 500, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 8, "imageHeight": 8 }, { "id": 4, "name": "popPlanced", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 1, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 4, "centerY": 4, "scalingX": 500, "scalingY": 500, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 8, "imageHeight": 8 }, { "id": 5, "name": "noPopLift", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 1, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 4, "centerY": 4, "scalingX": 170, "scalingY": 170, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 8, "imageHeight": 8 } ] }, { "id": 3, "name": "updownPotion", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 1, "name": "noPop", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 2, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 4, "centerY": 4, "scalingX": 500, "scalingY": 500, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 8, "imageHeight": 8 }, { "id": 2, "name": "pop", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 2, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 4, "centerY": 4, "scalingX": 500, "scalingY": 500, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 8, "imageHeight": 8 } ] }, { "id": 4, "name": "startPotion", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 1, "name": "noPop", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 3, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 4, "centerY": 4, "scalingX": 500, "scalingY": 500, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 8, "imageHeight": 8 }, { "id": 2, "name": "pop", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 3, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 4, "centerY": 4, "scalingX": 500, "scalingY": 500, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 8, "imageHeight": 8 } ] }, { "id": 5, "name": "poisonPoison", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 1, "name": "noPop", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 4, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 4, "centerY": 7, "scalingX": 500, "scalingY": 500, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 8, "imageHeight": 14 }, { "id": 2, "name": "Pop", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 4, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 4, "centerY": 7, "scalingX": 500, "scalingY": 500, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 8, "imageHeight": 14 }, { "id": 3, "name": "noPopLift", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 4, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 4, "centerY": 7, "scalingX": 170, "scalingY": 170, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 8, "imageHeight": 14 } ] } ],
+			"memo": "",
+			"folder": false
+		},
+				{
+			"id": 5,
+			"name": "nextArea",
+			"type": 0,
+			"originType": 1,
+			"originX": 0,
+			"originY": 0,
+			"resourceInfoList": [ { "id": 1, "image": true, "imageId": 17, "hdivCount": 2, "vdivCount": 1 } ],
+			"motionList": [ { "id": 1, "name": "NextArea", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 1, "name": "Single", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 1, "animationName": "", "timelineInfoList": [ { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] }, { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 32, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 64 } ] } ],
 			"memo": "",
 			"folder": false
 		}
