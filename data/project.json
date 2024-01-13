@@ -201,7 +201,7 @@
 },
 	"objectGroup": [ "Player Group", "Enemy Group", "crosshair", "system", "potion" ],
 	"tileGroup": [ "Default Tile" ],
-	"colorActionPaletteList": [{ "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }],
+	"colorActionPaletteList": [{ "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": 255,  "r": 255,  "g": 0,  "b": 0 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }],
 	"colorActionLinkPaletteList": [{ "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }, { "a": -1,  "r": -1,  "g": -1,  "b": -1 }],
 	"sceneList": [
 				{
@@ -1759,7 +1759,7 @@
 			"layerIndex": -1,
 			"locked": false,
 			"visible": true,
-			"priority": 2,
+			"priority": 15,
 			"dispPriority": 0,
 
 	"othersType": 0,
@@ -1790,7 +1790,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 3,
+			"priority": 16,
 			"dispPriority": 10,
 
 	"objectId": 1,
@@ -1921,15 +1921,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 0,
+			"priority": 7,
 			"dispPriority": 0,
 
 	"objectId": 12,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 411,
-	"y": 114,
+	"x": 609,
+	"y": 164,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -1980,7 +1980,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 1,
+			"priority": 14,
 			"dispPriority": 0,
 
 	"objectId": 14,
@@ -2101,15 +2101,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 4,
+			"priority": 3,
 			"dispPriority": 0,
 
 	"objectId": 16,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 478.667,
-	"y": 124,
+	"x": 609,
+	"y": 95,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -2241,15 +2241,879 @@
 	"disappearActionCommandList": [  ]
 ,
 			"folder": false
+		},
+							{
+			"id": 6,
+			"name": "shelf_item",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 0,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 420,
+	"y": 60,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 7,
+			"name": "shelf_item1",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 1,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 480,
+	"y": 60,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 8,
+			"name": "shelf_item2",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 2,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 540,
+	"y": 60,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 9,
+			"name": "shelf_item3",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 6,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 540,
+	"y": 115,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 10,
+			"name": "shelf_item4",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 5,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 480,
+	"y": 115,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 11,
+			"name": "shelf_item5",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 4,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 420,
+	"y": 115,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 12,
+			"name": "shelf_item6",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 10,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 420,
+	"y": 180,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 13,
+			"name": "shelf_item7",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 8,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 480,
+	"y": 180,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 14,
+			"name": "shelf_item8",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 9,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 540,
+	"y": 180,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 15,
+			"name": "shelf_item9",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 13,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 540,
+	"y": 245,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 16,
+			"name": "shelf_item10",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 11,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 480,
+	"y": 245,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 17,
+			"name": "shelf_item11",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 12,
+			"dispPriority": 0,
+
+	"objectId": 18,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 180.000000,
+	"x": 420,
+	"y": 245,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 2,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "12": 3, "14": 5, "1": 2, "16": 4 },
+					"objectSingleIdHash": { "18": 6, "12": 3, "14": 5, "1": 2, "16": 4 },
 			"folder": false
 				}
 	],
 	"tilesetList": [
 		{"id":1,"name":"tiles","tilesetType":0,"imageId":5,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":4,"vertTileCount":4,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false},
-		{"id":2,"name":"Shop","tilesetType":0,"imageId":14,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":10,"vertTileCount":6,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false}
+		{"id":2,"name":"Shop","tilesetType":0,"imageId":14,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":10,"vertTileCount":5,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false}
 	],
 	"imageList": [
 		{"id":1,"name":"font6x10","filename":"img/001.png","srcFilename":"","horzDivCount":1,"vertDivCount":1,			"folder": false},
@@ -2266,7 +3130,7 @@
 {"id":13,"name":"volueupdownpotion-Sheet","filename":"img/013.png","srcFilename":"I:/Games/myGames/Potion Poison/volueupdownpotion-Sheet.png","horzDivCount":2,"vertDivCount":1,					"folder": false}
 	]},
 		{"id":12,"name":"titleshelf","filename":"img/012.png","srcFilename":"I:/Games/myGames/Potion Poison/titleshelf.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
-		{"id":14,"name":"ShopWall","filename":"img/014.png","srcFilename":"E:/gameJam/ShopWall.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
+		{"id":14,"name":"ShopWall","filename":"img/014.png","srcFilename":"I:/Games/myGames/Potion Poison/initialDesignIdeas.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
 	],
 	"fontList": [
 				{
@@ -12561,6 +13425,1632 @@
 	]
 		},
 				{
+			"id": 13,
+			"name": "potions_lifted",
+			"folder": true, 	"children": [
+				{
+					"id": 15,
+					"name": "_lifted_health_potion",
+					"type": 1,
+					"group": 4,
+					"animationId": 4,
+					"operatable": false,
+					"priority": 0,
+					"initialActionId": 1,
+					"initialDisplayDirectionFlag": false,
+					"initialDisplayDirection": 180.000000,
+					"hitPlayerGroup": false,
+					"hitEnemyGroup": false,
+					"hitObjectGroupBit": 0,
+					"collideWithPlayerGroup": false,
+					"collideWithEnemyGroup": false,
+					"collideWithObjectGroupBit": 0,
+					"collideWithTile": false,
+					"collideWithTileGroupBit": 0,
+					"dispPriority": 0,
+					"actionList": [ {
+	"id": 1,
+	"name": "wait for throw",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": 2,
+	"animDirectionId": 5,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [  ],
+	"memo": "",
+	"x": -72,
+	"y": -24,
+	"width": 240,
+	"height": 48,
+	"shortcutList": []
+}, {
+	"id": 2,
+	"name": "throw",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": 2,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 3,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 12,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+}, {
+	"id": 2,
+	"commandType": 10,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"disappear": {}
+} ],
+	"memo": "",
+	"x": -72,
+	"y": 72,
+	"width": 240,
+	"height": 48,
+	"shortcutList": []
+}, {
+	"id": 3,
+	"name": "destroy",
+	"a": 255,
+	"r": 255,
+	"g": 0,
+	"b": 0,
+	"animMotionId": -1,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 1,
+	"commandType": 10,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"disappear": {}
+} ],
+	"memo": "",
+	"x": -288,
+	"y": -24,
+	"width": 168,
+	"height": 48,
+	"shortcutList": []
+} ],
+					"actionLinkList": [ {
+	"id": 1,
+	"typeIdPair": [ [0, 1, -1], [0, 2, -1] ],
+	"linkType": 0,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 1,
+	"noInput": false,
+	"useInput": true,
+	"inputConditionList": [ {
+	"id": 1,
+	"useKey": true,
+	"operationKeyId": 3,
+	"triggerType": 1,
+	"directionInputType": 0,
+	"directionBit": 0,
+	"condAnd": true,
+	"acceptFrameCount": 1
+} ],
+	"linkConditionList": [  ],
+	"memo": "",
+	"coordList": [ [ 48, 23 ], [ 48, 72 ] ],
+	"endPointFactor": [ -1, -1 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+}, {
+	"id": 2,
+	"typeIdPair": [ [0, 1, -1], [0, 3, -1] ],
+	"linkType": 0,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 1,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 17,
+	"condAnd": true,
+	"notFlag": false,
+	"switchVariableChanged": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchCondition": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"compareVariableOperator": 0,
+	"compareValueType": 0,
+	"compareValue": 0.000000,
+	"compareVariableObjectId": -1,
+	"compareVariableQualifierId": -1,
+	"compareVariableId": -1
+}
+} ],
+	"memo": "",
+	"coordList": [ [ -72, 0 ], [ -120, 0 ] ],
+	"endPointFactor": [ -1, -1 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+} ],
+					"actionGroupList": [  ],
+					"memo": "",
+					"testplayOnly": false,
+					"appearCondition": 1,
+					"appearConditionTileCount": 0,
+					"reappearCondition": 3,
+					"reappearConditionTileCount": 0,
+					"hp": 1,
+					"maxHp": 1,
+					"minAttack": 1,
+					"maxAttack": 1,
+					"initialDamageRate": 100,
+					"damageVariationValue": 0,
+					"critical": true,
+					"criticalRatio": 200,
+					"criticalIncidence": 5,
+					"moveType": 0,
+					"normalAccelMove": false,
+					"tankAccelMove": false,
+					"carAccelMove": false,
+					"upMoveKeyId": -1,
+					"downMoveKeyId": -1,
+					"leftMoveKeyId": -1,
+					"rightMoveKeyId": -1,
+					"forwardMoveKeyId": -1,
+					"backwardMoveKeyId": -1,
+					"leftTurnKeyId": -1,
+					"rightTurnKeyId": -1,
+					"slipOnSlope": false,
+					"diagonalMoveWithPolar": false,
+					"moveAroundWithinDots": false,
+					"dotsToMoveAround": 0,
+					"horizontalMove": 1.000000,
+					"verticalMove": 1.000000,
+					"horizontalAccel": 1.000000,
+					"horizontalMaxMove": 1.000000,
+					"horizontalDecel": 1.000000,
+					"verticalAccel": 1.000000,
+					"verticalMaxMove": 1.000000,
+					"verticalDecel": 1.000000,
+					"forwardMove": 1.000000,
+					"backwardMove": 1.000000,
+					"forwardAccel": 1.000000,
+					"forwardMaxMove": 1.000000,
+					"forwardDecel": 1.000000,
+					"backwardAccel": 1.000000,
+					"backwardMaxMove": 1.000000,
+					"backwardDecel": 1.000000,
+					"leftTurn": 1.000000,
+					"rightTurn": 1.000000,
+					"jumpInitialSpeed": 1.000000,
+					"gravity": 1.000000,
+					"movableWhenJumping": true,
+					"movableWhenFalling": true,
+					"fallOnCollideWithWall": true,
+					"fallOnCollideWithHitbox": true,
+					"jumpInputOperationKeyId": -1,
+					"affectInputDuration300": 0,
+					"limitFalldownAmount": true,
+					"maxFalldownAmount": 16.000000,
+					"invincibleOnDamaged": true,
+					"invincibleDuration300": 300,
+					"winkWhenInvincible": true,
+					"winkInterval300": 300,
+					"afterimage": false,
+					"afterimageCount": 0,
+					"afterimageInterval": 0.000000,
+					"afterimageDuration300": 0,
+					"fillAfterimage": false,
+					"fillAfterimageA": 255,
+					"fillAfterimageR": 128,
+					"fillAfterimageG": 0,
+					"fillAfterimageB": 255,
+					"fadeoutAfterimage": false,
+					"fadeoutAfterimageStart300": 0,
+					"useAnimationAfterimage": false,
+					"afterimageAnimationId": -1,
+					"followType": 1,
+					"followPrecision": 100,
+					"followIntervalByTime300": 0,
+					"followIntervalByLocusLength": 0,
+					"childDamageType": 0,
+					"takeOverDamageRateToParent": false,
+					"unattackableToParent": false,
+					"takeoverDispDirection": true,
+					"takeoverAngle": true,
+					"takeoverScaling": true,
+					"takeoverIntensity": true,
+					"disappearWhenHp0": false,
+					"disappearWhenOutOfCamera": false,
+					"disappearCameraMarginTileCount": 2,
+					"fixedInCamera": false,
+					"pushedbackByObject": true,
+					"takeoverStatesAtSceneEnd": false,
+					"disappearSettingFlag": false,
+					"disappearSetting": {
+	"otherObjectDecrementHp": true,
+	"decrement": 0,
+	"targetObjectType": 1,
+	"targetObjectTypeByType": 0,
+	"targetObjectGroup": -1,
+	"targetObjectId": -3,
+	"damageRange": 0,
+	"cameraRangeAdjust": 0,
+	"objCommandList": [  ]
+},
+					"fireBulletSettingFlag": false,
+					"additionalDisplayList": [  ],
+					"fireBulletSettingList": [  ],
+					"effectSettingFlag": false,
+					"effectSettingList": [  ],
+					"connectSettingFlag": false,
+					"connectSettingList": [  ],
+					"moveDispDirectionSettingFlag": false,
+					"moveDispDirectionSetting": {
+	"upOperationKeyId": -1,
+	"downOperationKeyId": -1,
+	"leftOperationKeyId": -1,
+	"rightOperationKeyId": -1,
+	"actionInfoList": [  ]
+},
+					"physicsSettingFlag": false,
+					"physicsSetting": {
+	"affectPhysics": false,
+	"physicsAffected": false,
+	"followConnectedPhysics": false,
+	"templateId": -1,
+	"density": 1000,
+	"mass": 1,
+	"friction": 1,
+	"repulsion": 0.5,
+	"nonCollisionGroup": [  ]
+},
+					"viewportLightSettingFlag": false,
+					"viewportLightSettingList": [  ],
+					"commonActionSettingFlag": false,
+					"commonActionSettingList": [  ],
+					"commonActionGroup": {
+	"id": 99999999,
+	"name": "Common Actions",
+	"a": 255,
+	"r": 255,
+	"g": 255,
+	"b": 0,
+	"actionIdList": [  ],
+	"x": 0,
+	"y": 0,
+	"width": 64,
+	"height": 64,
+	"collapsed": false
+},
+					"aroundCharacterViewSettingFlag": false,
+					"aroundCharacterViewSetting": {
+	"tileOn": true,
+	"objectOn": true,
+	"viewType": 0,
+	"multiplyFill": true,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"transparency": 0,
+	"width": 0,
+	"height": 0
+},
+					"invincibleSettingFlag": false,
+					"invincibleSettingList": [  ],
+					"damagedSettingFlag": false,
+					"damagedSettingList": [  ],
+					"moveRestrictionSettingFlag": false,
+					"moveRestrictionSettingList": [  ],
+							"variableList": [
+					{
+    "folder": false,
+    "id": 1,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Object ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 2,
+    "initialValue": 0,
+    "memo": "",
+    "name": "HP",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 3,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Max HP",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 4,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Min Attack",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 5,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Max attack",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 15,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Critical Boost (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 16,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Critical Rate (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 6,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Received Damage Rate",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 36,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Damage Spread",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 7,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Attack Attribute",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 8,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Area Detection",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 9,
+    "initialValue": 0,
+    "memo": "",
+    "name": "X Coordinate Position",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 10,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Y Coordinate Position",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 37,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Display Direction",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 32,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Scale X (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 33,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Scale Y (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 11,
+    "initialValue": 0,
+    "memo": "",
+    "name": "X Direction Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 12,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Y Direction Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 23,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 24,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 25,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Acceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 26,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Acceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 27,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Max Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 28,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Max Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 29,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Deceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 30,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Deceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 35,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Initial Jump Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 13,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Player Detection",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 22,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Controller ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 14,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Received Damage Amount",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 17,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Time of Invincibility",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 18,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Animation frame",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 19,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Instance ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 21,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Single Unit Instance ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 20,
+    "initialValue": 0,
+    "memo": "",
+    "name": "No. of Same Instances Placed in Scene",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 31,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Duration to take over accelerated speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 34,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Display Priority",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 38,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Parent Object Instance ID",
+    "toBeSaved": true
+}
+
+							],
+							"switchList": [
+							{
+			"id": 1,
+			"name": "Invincibility",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 2,
+			"name": "Free Movement",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 3,
+			"name": "Lock Target",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 4,
+			"name": "Portal Touched",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 5,
+			"name": "Critical Received",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 6,
+			"name": "Disable",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 7,
+			"name": "SlipOnSlope",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 8,
+			"name": "AffectOtherPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 9,
+			"name": "AffectedByOtherPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 10,
+			"name": "FollowConnectedPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 11,
+			"name": "Display Afterimage",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		}
+							],
+					"databaseSettingFlag": false,
+					"databaseId": 0,
+							"physicsPartList": [
+					
+							],
+							"priorityInPhysics": 0
+,
+					"folder": false
+				},
+				{
+					"id": 17,
+					"name": "_lifted_poison_potion",
+					"type": 1,
+					"group": 4,
+					"animationId": 4,
+					"operatable": false,
+					"priority": 0,
+					"initialActionId": 1,
+					"initialDisplayDirectionFlag": false,
+					"initialDisplayDirection": 180.000000,
+					"hitPlayerGroup": false,
+					"hitEnemyGroup": false,
+					"hitObjectGroupBit": 0,
+					"collideWithPlayerGroup": false,
+					"collideWithEnemyGroup": false,
+					"collideWithObjectGroupBit": 0,
+					"collideWithTile": false,
+					"collideWithTileGroupBit": 0,
+					"dispPriority": 0,
+					"actionList": [ {
+	"id": 1,
+	"name": "wait for throw",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": 5,
+	"animDirectionId": 3,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [  ],
+	"memo": "",
+	"x": -72,
+	"y": -24,
+	"width": 240,
+	"height": 48,
+	"shortcutList": []
+}, {
+	"id": 2,
+	"name": "throw",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": 5,
+	"animDirectionId": 3,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 3,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2001,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 2,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectCreate": {
+	"objectId": 16,
+	"actionId": -1,
+	"createPosition": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"probability": 100,
+	"childObject": false,
+	"useRotation": false,
+	"lowerPriority": false,
+	"gridMagnet": false
+}
+}, {
+	"id": 2,
+	"commandType": 10,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"disappear": {}
+} ],
+	"memo": "",
+	"x": -72,
+	"y": 72,
+	"width": 240,
+	"height": 48,
+	"shortcutList": []
+} ],
+					"actionLinkList": [ {
+	"id": 1,
+	"typeIdPair": [ [0, 1, -1], [0, 2, -1] ],
+	"linkType": 0,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 1,
+	"noInput": false,
+	"useInput": true,
+	"inputConditionList": [ {
+	"id": 1,
+	"useKey": true,
+	"operationKeyId": 1,
+	"triggerType": 1,
+	"directionInputType": 0,
+	"directionBit": 0,
+	"condAnd": true,
+	"acceptFrameCount": 1
+} ],
+	"linkConditionList": [  ],
+	"memo": "",
+	"coordList": [ [ 48, 23 ], [ 48, 72 ] ],
+	"endPointFactor": [ -1, -1 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+} ],
+					"actionGroupList": [  ],
+					"memo": "",
+					"testplayOnly": false,
+					"appearCondition": 1,
+					"appearConditionTileCount": 0,
+					"reappearCondition": 3,
+					"reappearConditionTileCount": 0,
+					"hp": 1,
+					"maxHp": 1,
+					"minAttack": 1,
+					"maxAttack": 1,
+					"initialDamageRate": 100,
+					"damageVariationValue": 0,
+					"critical": true,
+					"criticalRatio": 200,
+					"criticalIncidence": 5,
+					"moveType": 0,
+					"normalAccelMove": false,
+					"tankAccelMove": false,
+					"carAccelMove": false,
+					"upMoveKeyId": -1,
+					"downMoveKeyId": -1,
+					"leftMoveKeyId": -1,
+					"rightMoveKeyId": -1,
+					"forwardMoveKeyId": -1,
+					"backwardMoveKeyId": -1,
+					"leftTurnKeyId": -1,
+					"rightTurnKeyId": -1,
+					"slipOnSlope": false,
+					"diagonalMoveWithPolar": false,
+					"moveAroundWithinDots": false,
+					"dotsToMoveAround": 0,
+					"horizontalMove": 1.000000,
+					"verticalMove": 1.000000,
+					"horizontalAccel": 1.000000,
+					"horizontalMaxMove": 1.000000,
+					"horizontalDecel": 1.000000,
+					"verticalAccel": 1.000000,
+					"verticalMaxMove": 1.000000,
+					"verticalDecel": 1.000000,
+					"forwardMove": 1.000000,
+					"backwardMove": 1.000000,
+					"forwardAccel": 1.000000,
+					"forwardMaxMove": 1.000000,
+					"forwardDecel": 1.000000,
+					"backwardAccel": 1.000000,
+					"backwardMaxMove": 1.000000,
+					"backwardDecel": 1.000000,
+					"leftTurn": 1.000000,
+					"rightTurn": 1.000000,
+					"jumpInitialSpeed": 1.000000,
+					"gravity": 1.000000,
+					"movableWhenJumping": true,
+					"movableWhenFalling": true,
+					"fallOnCollideWithWall": true,
+					"fallOnCollideWithHitbox": true,
+					"jumpInputOperationKeyId": -1,
+					"affectInputDuration300": 0,
+					"limitFalldownAmount": true,
+					"maxFalldownAmount": 16.000000,
+					"invincibleOnDamaged": true,
+					"invincibleDuration300": 300,
+					"winkWhenInvincible": true,
+					"winkInterval300": 300,
+					"afterimage": false,
+					"afterimageCount": 0,
+					"afterimageInterval": 0.000000,
+					"afterimageDuration300": 0,
+					"fillAfterimage": false,
+					"fillAfterimageA": 255,
+					"fillAfterimageR": 128,
+					"fillAfterimageG": 0,
+					"fillAfterimageB": 255,
+					"fadeoutAfterimage": false,
+					"fadeoutAfterimageStart300": 0,
+					"useAnimationAfterimage": false,
+					"afterimageAnimationId": -1,
+					"followType": 1,
+					"followPrecision": 100,
+					"followIntervalByTime300": 0,
+					"followIntervalByLocusLength": 0,
+					"childDamageType": 0,
+					"takeOverDamageRateToParent": false,
+					"unattackableToParent": false,
+					"takeoverDispDirection": true,
+					"takeoverAngle": true,
+					"takeoverScaling": true,
+					"takeoverIntensity": true,
+					"disappearWhenHp0": false,
+					"disappearWhenOutOfCamera": false,
+					"disappearCameraMarginTileCount": 2,
+					"fixedInCamera": false,
+					"pushedbackByObject": true,
+					"takeoverStatesAtSceneEnd": false,
+					"disappearSettingFlag": false,
+					"disappearSetting": {
+	"otherObjectDecrementHp": true,
+	"decrement": 0,
+	"targetObjectType": 1,
+	"targetObjectTypeByType": 0,
+	"targetObjectGroup": -1,
+	"targetObjectId": -3,
+	"damageRange": 0,
+	"cameraRangeAdjust": 0,
+	"objCommandList": [  ]
+},
+					"fireBulletSettingFlag": false,
+					"additionalDisplayList": [  ],
+					"fireBulletSettingList": [  ],
+					"effectSettingFlag": false,
+					"effectSettingList": [  ],
+					"connectSettingFlag": false,
+					"connectSettingList": [  ],
+					"moveDispDirectionSettingFlag": false,
+					"moveDispDirectionSetting": {
+	"upOperationKeyId": -1,
+	"downOperationKeyId": -1,
+	"leftOperationKeyId": -1,
+	"rightOperationKeyId": -1,
+	"actionInfoList": [  ]
+},
+					"physicsSettingFlag": false,
+					"physicsSetting": {
+	"affectPhysics": false,
+	"physicsAffected": false,
+	"followConnectedPhysics": false,
+	"templateId": -1,
+	"density": 1000,
+	"mass": 1,
+	"friction": 1,
+	"repulsion": 0.5,
+	"nonCollisionGroup": [  ]
+},
+					"viewportLightSettingFlag": false,
+					"viewportLightSettingList": [  ],
+					"commonActionSettingFlag": false,
+					"commonActionSettingList": [  ],
+					"commonActionGroup": {
+	"id": 99999999,
+	"name": "Common Actions",
+	"a": 255,
+	"r": 255,
+	"g": 255,
+	"b": 0,
+	"actionIdList": [  ],
+	"x": 0,
+	"y": 0,
+	"width": 64,
+	"height": 64,
+	"collapsed": false
+},
+					"aroundCharacterViewSettingFlag": false,
+					"aroundCharacterViewSetting": {
+	"tileOn": true,
+	"objectOn": true,
+	"viewType": 0,
+	"multiplyFill": true,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"transparency": 0,
+	"width": 0,
+	"height": 0
+},
+					"invincibleSettingFlag": false,
+					"invincibleSettingList": [  ],
+					"damagedSettingFlag": false,
+					"damagedSettingList": [  ],
+					"moveRestrictionSettingFlag": false,
+					"moveRestrictionSettingList": [  ],
+							"variableList": [
+					{
+    "folder": false,
+    "id": 1,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Object ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 2,
+    "initialValue": 0,
+    "memo": "",
+    "name": "HP",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 3,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Max HP",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 4,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Min Attack",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 5,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Max attack",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 15,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Critical Boost (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 16,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Critical Rate (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 6,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Received Damage Rate",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 36,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Damage Spread",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 7,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Attack Attribute",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 8,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Area Detection",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 9,
+    "initialValue": 0,
+    "memo": "",
+    "name": "X Coordinate Position",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 10,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Y Coordinate Position",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 37,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Display Direction",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 32,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Scale X (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 33,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Scale Y (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 11,
+    "initialValue": 0,
+    "memo": "",
+    "name": "X Direction Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 12,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Y Direction Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 23,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 24,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 25,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Acceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 26,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Acceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 27,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Max Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 28,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Max Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 29,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Deceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 30,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Deceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 35,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Initial Jump Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 13,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Player Detection",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 22,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Controller ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 14,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Received Damage Amount",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 17,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Time of Invincibility",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 18,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Animation frame",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 19,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Instance ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 21,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Single Unit Instance ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 20,
+    "initialValue": 0,
+    "memo": "",
+    "name": "No. of Same Instances Placed in Scene",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 31,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Duration to take over accelerated speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 34,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Display Priority",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 38,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Parent Object Instance ID",
+    "toBeSaved": true
+}
+
+							],
+							"switchList": [
+							{
+			"id": 1,
+			"name": "Invincibility",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 2,
+			"name": "Free Movement",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 3,
+			"name": "Lock Target",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 4,
+			"name": "Portal Touched",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 5,
+			"name": "Critical Received",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 6,
+			"name": "Disable",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 7,
+			"name": "SlipOnSlope",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 8,
+			"name": "AffectOtherPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 9,
+			"name": "AffectedByOtherPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 10,
+			"name": "FollowConnectedPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 11,
+			"name": "Display Afterimage",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		}
+							],
+					"databaseSettingFlag": false,
+					"databaseId": 0,
+							"physicsPartList": [
+					
+							],
+							"priorityInPhysics": 0
+,
+					"folder": false
+				}
+	]
+		},
+				{
 			"id": 14,
 			"name": "dialogue box",
 			"type": 1,
@@ -13433,11 +15923,11 @@
 			"folder": false
 		},
 				{
-			"id": 15,
-			"name": "_lifted_health_potion",
+			"id": 18,
+			"name": "shelf_item",
 			"type": 1,
-			"group": 4,
-			"animationId": 4,
+			"group": 3,
+			"animationId": -1,
 			"operatable": false,
 			"priority": 0,
 			"initialActionId": 1,
@@ -13454,13 +15944,13 @@
 			"dispPriority": 0,
 			"actionList": [ {
 	"id": 1,
-	"name": "wait for throw",
+	"name": "empty",
 	"a": 255,
 	"r": 166,
 	"g": 166,
 	"b": 166,
-	"animMotionId": 2,
-	"animDirectionId": 5,
+	"animMotionId": -1,
+	"animDirectionId": -1,
 	"takeOverMotion": false,
 	"jumpable": false,
 	"enableCustomizedJump": false,
@@ -13477,17 +15967,17 @@
 	"memo": "",
 	"x": -72,
 	"y": -24,
-	"width": 240,
+	"width": 168,
 	"height": 48,
 	"shortcutList": []
 }, {
 	"id": 2,
-	"name": "throw",
+	"name": "health potion shelf",
 	"a": 255,
 	"r": 166,
 	"g": 166,
 	"b": 166,
-	"animMotionId": 2,
+	"animMotionId": -1,
 	"animDirectionId": -1,
 	"takeOverMotion": false,
 	"jumpable": false,
@@ -13502,7 +15992,7 @@
 	"jumpSpeed": 100,
 	"turnSpeed": 100,
 	"objCommandList": [ {
-	"id": 3,
+	"id": 2,
 	"commandType": 31,
 	"ignored": false,
 	"instanceConfigurable": false,
@@ -13546,17 +16036,11 @@
 	"lowerPriority": false,
 	"gridMagnet": false
 }
-}, {
-	"id": 2,
-	"commandType": 10,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"disappear": {}
 } ],
 	"memo": "",
-	"x": -72,
+	"x": -192,
 	"y": 72,
-	"width": 240,
+	"width": 216,
 	"height": 48,
 	"shortcutList": []
 } ],
@@ -13569,7 +16053,7 @@
 	"r": 0,
 	"g": 0,
 	"b": 0,
-	"changeConditionType": 1,
+	"changeConditionType": 0,
 	"noInput": false,
 	"useInput": true,
 	"inputConditionList": [ {
@@ -13582,782 +16066,119 @@
 	"condAnd": true,
 	"acceptFrameCount": 1
 } ],
-	"linkConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 10,
+	"condAnd": true,
+	"notFlag": false,
+	"objectFound": {
+	"viewportId": 1,
+	"discoveredAcrossLayersObject": false,
+	"objectType": 0,
+	"objectTypeByType": 0,
+	"objectGroup": 2,
+	"objectId": -99
+}
+}, {
+	"id": 2,
+	"ignored": false,
+	"type": 17,
+	"condAnd": true,
+	"notFlag": false,
+	"switchVariableChanged": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchCondition": 0,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"compareVariableOperator": 0,
+	"compareValueType": 0,
+	"compareValue": 0.000000,
+	"compareVariableObjectId": -1,
+	"compareVariableQualifierId": -1,
+	"compareVariableId": -1
+}
+} ],
 	"memo": "",
-	"coordList": [ [ 48, 23 ], [ 48, 72 ] ],
-	"endPointFactor": [ -1, -1 ],
+	"coordList": [ [ -48, 23 ], [ -48, 72 ] ],
+	"endPointFactor": [ 2572, 600 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
-} ],
-			"actionGroupList": [  ],
-			"memo": "",
-			"testplayOnly": false,
-			"appearCondition": 1,
-			"appearConditionTileCount": 0,
-			"reappearCondition": 3,
-			"reappearConditionTileCount": 0,
-			"hp": 1,
-			"maxHp": 1,
-			"minAttack": 1,
-			"maxAttack": 1,
-			"initialDamageRate": 100,
-			"damageVariationValue": 0,
-			"critical": true,
-			"criticalRatio": 200,
-			"criticalIncidence": 5,
-			"moveType": 0,
-			"normalAccelMove": false,
-			"tankAccelMove": false,
-			"carAccelMove": false,
-			"upMoveKeyId": -1,
-			"downMoveKeyId": -1,
-			"leftMoveKeyId": -1,
-			"rightMoveKeyId": -1,
-			"forwardMoveKeyId": -1,
-			"backwardMoveKeyId": -1,
-			"leftTurnKeyId": -1,
-			"rightTurnKeyId": -1,
-			"slipOnSlope": false,
-			"diagonalMoveWithPolar": false,
-			"moveAroundWithinDots": false,
-			"dotsToMoveAround": 0,
-			"horizontalMove": 1.000000,
-			"verticalMove": 1.000000,
-			"horizontalAccel": 1.000000,
-			"horizontalMaxMove": 1.000000,
-			"horizontalDecel": 1.000000,
-			"verticalAccel": 1.000000,
-			"verticalMaxMove": 1.000000,
-			"verticalDecel": 1.000000,
-			"forwardMove": 1.000000,
-			"backwardMove": 1.000000,
-			"forwardAccel": 1.000000,
-			"forwardMaxMove": 1.000000,
-			"forwardDecel": 1.000000,
-			"backwardAccel": 1.000000,
-			"backwardMaxMove": 1.000000,
-			"backwardDecel": 1.000000,
-			"leftTurn": 1.000000,
-			"rightTurn": 1.000000,
-			"jumpInitialSpeed": 1.000000,
-			"gravity": 1.000000,
-			"movableWhenJumping": true,
-			"movableWhenFalling": true,
-			"fallOnCollideWithWall": true,
-			"fallOnCollideWithHitbox": true,
-			"jumpInputOperationKeyId": -1,
-			"affectInputDuration300": 0,
-			"limitFalldownAmount": true,
-			"maxFalldownAmount": 16.000000,
-			"invincibleOnDamaged": true,
-			"invincibleDuration300": 300,
-			"winkWhenInvincible": true,
-			"winkInterval300": 300,
-			"afterimage": false,
-			"afterimageCount": 0,
-			"afterimageInterval": 0.000000,
-			"afterimageDuration300": 0,
-			"fillAfterimage": false,
-			"fillAfterimageA": 255,
-			"fillAfterimageR": 128,
-			"fillAfterimageG": 0,
-			"fillAfterimageB": 255,
-			"fadeoutAfterimage": false,
-			"fadeoutAfterimageStart300": 0,
-			"useAnimationAfterimage": false,
-			"afterimageAnimationId": -1,
-			"followType": 1,
-			"followPrecision": 100,
-			"followIntervalByTime300": 0,
-			"followIntervalByLocusLength": 0,
-			"childDamageType": 0,
-			"takeOverDamageRateToParent": false,
-			"unattackableToParent": false,
-			"takeoverDispDirection": true,
-			"takeoverAngle": true,
-			"takeoverScaling": true,
-			"takeoverIntensity": true,
-			"disappearWhenHp0": false,
-			"disappearWhenOutOfCamera": false,
-			"disappearCameraMarginTileCount": 2,
-			"fixedInCamera": false,
-			"pushedbackByObject": true,
-			"takeoverStatesAtSceneEnd": false,
-			"disappearSettingFlag": false,
-			"disappearSetting": {
-	"otherObjectDecrementHp": true,
-	"decrement": 0,
-	"targetObjectType": 1,
-	"targetObjectTypeByType": 0,
-	"targetObjectGroup": -1,
-	"targetObjectId": -3,
-	"damageRange": 0,
-	"cameraRangeAdjust": 0,
-	"objCommandList": [  ]
-},
-			"fireBulletSettingFlag": false,
-			"additionalDisplayList": [  ],
-			"fireBulletSettingList": [  ],
-			"effectSettingFlag": false,
-			"effectSettingList": [  ],
-			"connectSettingFlag": false,
-			"connectSettingList": [  ],
-			"moveDispDirectionSettingFlag": false,
-			"moveDispDirectionSetting": {
-	"upOperationKeyId": -1,
-	"downOperationKeyId": -1,
-	"leftOperationKeyId": -1,
-	"rightOperationKeyId": -1,
-	"actionInfoList": [  ]
-},
-			"physicsSettingFlag": false,
-			"physicsSetting": {
-	"affectPhysics": false,
-	"physicsAffected": false,
-	"followConnectedPhysics": false,
-	"templateId": -1,
-	"density": 1000,
-	"mass": 1,
-	"friction": 1,
-	"repulsion": 0.5,
-	"nonCollisionGroup": [  ]
-},
-			"viewportLightSettingFlag": false,
-			"viewportLightSettingList": [  ],
-			"commonActionSettingFlag": false,
-			"commonActionSettingList": [  ],
-			"commonActionGroup": {
-	"id": 99999999,
-	"name": "Common Actions",
-	"a": 255,
-	"r": 255,
-	"g": 255,
-	"b": 0,
-	"actionIdList": [  ],
-	"x": 0,
-	"y": 0,
-	"width": 64,
-	"height": 64,
-	"collapsed": false
-},
-			"aroundCharacterViewSettingFlag": false,
-			"aroundCharacterViewSetting": {
-	"tileOn": true,
-	"objectOn": true,
-	"viewType": 0,
-	"multiplyFill": true,
-	"fillA": 255,
-	"fillR": 255,
-	"fillG": 255,
-	"fillB": 255,
-	"transparency": 0,
-	"width": 0,
-	"height": 0
-},
-			"invincibleSettingFlag": false,
-			"invincibleSettingList": [  ],
-			"damagedSettingFlag": false,
-			"damagedSettingList": [  ],
-			"moveRestrictionSettingFlag": false,
-			"moveRestrictionSettingList": [  ],
-					"variableList": [
-					{
-    "folder": false,
-    "id": 1,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Object ID",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 2,
-    "initialValue": 0,
-    "memo": "",
-    "name": "HP",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 3,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Max HP",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 4,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Min Attack",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 5,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Max attack",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 15,
-    "initialValue": 100,
-    "memo": "",
-    "name": "Critical Boost (%)",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 16,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Critical Rate (%)",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 6,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Received Damage Rate",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 36,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Damage Spread",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 7,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Attack Attribute",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 8,
-    "initialValue": -1,
-    "memo": "",
-    "name": "Area Detection",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 9,
-    "initialValue": 0,
-    "memo": "",
-    "name": "X Coordinate Position",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 10,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Y Coordinate Position",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 37,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Display Direction",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 32,
-    "initialValue": 100,
-    "memo": "",
-    "name": "Scale X (%)",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 33,
-    "initialValue": 100,
-    "memo": "",
-    "name": "Scale Y (%)",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 11,
-    "initialValue": 0,
-    "memo": "",
-    "name": "X Direction Speed",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 12,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Y Direction Speed",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 23,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Horizontal Movement",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 24,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Vertical Movement",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 25,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Horizontal Acceleration",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 26,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Vertical Acceleration",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 27,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Horizontal Max Movement",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 28,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Vertical Max Movement",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 29,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Horizontal Deceleration",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 30,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Vertical Deceleration",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 35,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Initial Jump Speed",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 13,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Player Detection",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 22,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Controller ID",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 14,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Received Damage Amount",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 17,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Time of Invincibility",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 18,
-    "initialValue": -1,
-    "memo": "",
-    "name": "Animation frame",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 19,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Instance ID",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 21,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Single Unit Instance ID",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 20,
-    "initialValue": 0,
-    "memo": "",
-    "name": "No. of Same Instances Placed in Scene",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 31,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Duration to take over accelerated speed",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 34,
-    "initialValue": 0,
-    "memo": "",
-    "name": "Display Priority",
-    "toBeSaved": true
-}
-,
-					{
-    "folder": false,
-    "id": 38,
-    "initialValue": -1,
-    "memo": "",
-    "name": "Parent Object Instance ID",
-    "toBeSaved": true
-}
-
-					],
-					"switchList": [
-							{
-			"id": 1,
-			"name": "Invincibility",
-			"initialValue": false,
-			"toBeSaved": true,
-			"memo": "",
-			"folder": false
-		},
-							{
-			"id": 2,
-			"name": "Free Movement",
-			"initialValue": false,
-			"toBeSaved": true,
-			"memo": "",
-			"folder": false
-		},
-							{
-			"id": 3,
-			"name": "Lock Target",
-			"initialValue": false,
-			"toBeSaved": true,
-			"memo": "",
-			"folder": false
-		},
-							{
-			"id": 4,
-			"name": "Portal Touched",
-			"initialValue": false,
-			"toBeSaved": true,
-			"memo": "",
-			"folder": false
-		},
-							{
-			"id": 5,
-			"name": "Critical Received",
-			"initialValue": false,
-			"toBeSaved": true,
-			"memo": "",
-			"folder": false
-		},
-							{
-			"id": 6,
-			"name": "Disable",
-			"initialValue": false,
-			"toBeSaved": true,
-			"memo": "",
-			"folder": false
-		},
-							{
-			"id": 7,
-			"name": "SlipOnSlope",
-			"initialValue": false,
-			"toBeSaved": true,
-			"memo": "",
-			"folder": false
-		},
-							{
-			"id": 8,
-			"name": "AffectOtherPhysics",
-			"initialValue": false,
-			"toBeSaved": true,
-			"memo": "",
-			"folder": false
-		},
-							{
-			"id": 9,
-			"name": "AffectedByOtherPhysics",
-			"initialValue": false,
-			"toBeSaved": true,
-			"memo": "",
-			"folder": false
-		},
-							{
-			"id": 10,
-			"name": "FollowConnectedPhysics",
-			"initialValue": false,
-			"toBeSaved": true,
-			"memo": "",
-			"folder": false
-		},
-							{
-			"id": 11,
-			"name": "Display Afterimage",
-			"initialValue": false,
-			"toBeSaved": true,
-			"memo": "",
-			"folder": false
-		}
-					],
-			"databaseSettingFlag": false,
-			"databaseId": 0,
-					"physicsPartList": [
-					
-					],
-					"priorityInPhysics": 0
-,
-			"folder": false
-		},
-				{
-			"id": 17,
-			"name": "_lifted_poison_potion",
-			"type": 1,
-			"group": 4,
-			"animationId": 4,
-			"operatable": false,
-			"priority": 0,
-			"initialActionId": 1,
-			"initialDisplayDirectionFlag": false,
-			"initialDisplayDirection": 180.000000,
-			"hitPlayerGroup": false,
-			"hitEnemyGroup": false,
-			"hitObjectGroupBit": 0,
-			"collideWithPlayerGroup": false,
-			"collideWithEnemyGroup": false,
-			"collideWithObjectGroupBit": 0,
-			"collideWithTile": false,
-			"collideWithTileGroupBit": 0,
-			"dispPriority": 0,
-			"actionList": [ {
-	"id": 1,
-	"name": "wait for throw",
-	"a": 255,
-	"r": 166,
-	"g": 166,
-	"b": 166,
-	"animMotionId": 5,
-	"animDirectionId": 3,
-	"takeOverMotion": false,
-	"jumpable": false,
-	"enableCustomizedJump": false,
-	"ignoreMoveInput": false,
-	"keepDirection": false,
-	"ignoreGravity": false,
-	"gravity": 100,
-	"reflectGravityToDisplayDirection": false,
-	"moveSpeed": 100,
-	"upDownMoveSpeed": 100,
-	"jumpSpeed": 100,
-	"turnSpeed": 100,
-	"objCommandList": [  ],
-	"memo": "",
-	"x": -72,
-	"y": -24,
-	"width": 240,
-	"height": 48,
-	"shortcutList": []
 }, {
 	"id": 2,
-	"name": "throw",
+	"typeIdPair": [ [0, 2, -1], [0, 1, -1] ],
+	"linkType": 0,
+	"priority": 0,
 	"a": 255,
-	"r": 166,
-	"g": 166,
-	"b": 166,
-	"animMotionId": 5,
-	"animDirectionId": 3,
-	"takeOverMotion": false,
-	"jumpable": false,
-	"enableCustomizedJump": false,
-	"ignoreMoveInput": false,
-	"keepDirection": false,
-	"ignoreGravity": false,
-	"gravity": 100,
-	"reflectGravityToDisplayDirection": false,
-	"moveSpeed": 100,
-	"upDownMoveSpeed": 100,
-	"jumpSpeed": 100,
-	"turnSpeed": 100,
-	"objCommandList": [ {
-	"id": 3,
-	"commandType": 31,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 0,
+	"noInput": false,
+	"useInput": true,
+	"inputConditionList": [ {
+	"id": 1,
+	"useKey": true,
+	"operationKeyId": 1,
+	"triggerType": 1,
+	"directionInputType": 0,
+	"directionBit": 0,
+	"condAnd": true,
+	"acceptFrameCount": 1
+} ],
+	"linkConditionList": [ {
+	"id": 1,
 	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
+	"type": 17,
+	"condAnd": true,
+	"notFlag": false,
+	"switchVariableChanged": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2000,
+	"switchCondition": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"compareVariableOperator": 0,
+	"compareValueType": 0,
+	"compareValue": 0.000000,
+	"compareVariableObjectId": -1,
+	"compareVariableQualifierId": -1,
+	"compareVariableId": -1
+}
+}, {
+	"id": 2,
+	"ignored": false,
+	"type": 17,
+	"condAnd": true,
+	"notFlag": false,
+	"switchVariableChanged": {
 	"swtch": true,
 	"switchObjectId": 1,
 	"switchQualifierId": -1,
 	"switchId": 2001,
-	"switchValue": 1,
+	"switchCondition": 1,
 	"variableObjectId": -1,
 	"variableQualifierId": -1,
 	"variableId": -1,
-	"variableAssignOperator": 0,
-	"variableAssignValueType": 0,
-	"assignValue": 0.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
+	"compareVariableOperator": 0,
+	"compareValueType": 0,
+	"compareValue": 0.000000,
+	"compareVariableObjectId": -1,
+	"compareVariableQualifierId": -1,
+	"compareVariableId": -1
 }
-}, {
-	"id": 1,
-	"commandType": 2,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"objectCreate": {
-	"objectId": 16,
-	"actionId": -1,
-	"createPosition": 0,
-	"useConnect": false,
-	"connectId": -1,
-	"adjustX": 0,
-	"adjustY": 0,
-	"probability": 100,
-	"childObject": false,
-	"useRotation": false,
-	"lowerPriority": false,
-	"gridMagnet": false
-}
-}, {
-	"id": 2,
-	"commandType": 10,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"disappear": {}
 } ],
 	"memo": "",
-	"x": -72,
-	"y": 72,
-	"width": 240,
-	"height": 48,
-	"shortcutList": []
-} ],
-			"actionLinkList": [ {
-	"id": 1,
-	"typeIdPair": [ [0, 1, -1], [0, 2, -1] ],
-	"linkType": 0,
-	"priority": 0,
-	"a": 255,
-	"r": 0,
-	"g": 0,
-	"b": 0,
-	"changeConditionType": 1,
-	"noInput": false,
-	"useInput": true,
-	"inputConditionList": [ {
-	"id": 1,
-	"useKey": true,
-	"operationKeyId": 1,
-	"triggerType": 1,
-	"directionInputType": 0,
-	"directionBit": 0,
-	"condAnd": true,
-	"acceptFrameCount": 1
-} ],
-	"linkConditionList": [  ],
-	"memo": "",
-	"coordList": [ [ 48, 23 ], [ 48, 72 ] ],
-	"endPointFactor": [ -1, -1 ],
+	"coordList": [ [ -2, 72 ], [ -2, 23 ] ],
+	"endPointFactor": [ 791, 2325 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
@@ -14367,7 +16188,7 @@
 			"testplayOnly": false,
 			"appearCondition": 1,
 			"appearConditionTileCount": 0,
-			"reappearCondition": 3,
+			"reappearCondition": 1,
 			"reappearConditionTileCount": 0,
 			"hp": 1,
 			"maxHp": 1,
@@ -14443,9 +16264,9 @@
 			"followPrecision": 100,
 			"followIntervalByTime300": 0,
 			"followIntervalByLocusLength": 0,
-			"childDamageType": 0,
+			"childDamageType": 1,
 			"takeOverDamageRateToParent": false,
-			"unattackableToParent": false,
+			"unattackableToParent": true,
 			"takeoverDispDirection": true,
 			"takeoverAngle": true,
 			"takeoverScaling": true,
@@ -14495,8 +16316,31 @@
 	"repulsion": 0.5,
 	"nonCollisionGroup": [  ]
 },
-			"viewportLightSettingFlag": false,
-			"viewportLightSettingList": [  ],
+			"viewportLightSettingFlag": true,
+			"viewportLightSettingList": [ {
+	"id": 1,
+	"name": "Field of Vision/Lighting001",
+	"viewport": true,
+	"objectSwitch": true,
+	"objectSwitchId": -1,
+	"systemSwitchId": -1,
+	"angleRange": 360,
+	"radius": 30,
+	"scaleX": 70,
+	"scaleY": 70,
+	"rotation": 270,
+	"coloring": true,
+	"a": 128,
+	"r": 255,
+	"g": 255,
+	"b": 255,
+	"defocusCircumferenceFlag": true,
+	"defocusCircumference": 0,
+	"positionType": 0,
+	"connectionId": -1,
+	"adjustX": 0,
+	"adjustY": 0
+} ],
 			"commonActionSettingFlag": false,
 			"commonActionSettingList": [  ],
 			"commonActionGroup": {
