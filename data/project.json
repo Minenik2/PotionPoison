@@ -1,11 +1,10 @@
 {
-	"version": "1.0.6",
+	"version": "1.0.5",
 	"gameIcon": "",
 	"gameIconSrcFilename": "",
 	"gameType": 1,
 	"playerCount": 1,
 	"mode30Fps": false,
-	"fix60FpsMode": false,
 	"tileWidth": 64,
 	"tileHeight": 64,
 	"screenWidth": 640,
@@ -21,8 +20,7 @@
 	"nxSoftResetKeyConfig": 0,
 	"nxReturnToLauncherKeyConfig": 0,
 	"nxMenuBarVisibleKeyConfig": 0,
-	"nxSupportForSingleJoyCon": true,
-	"nxPlayerVersion": "1.0.6",
+	"nxPlayerVersion": "1.0.5",
 	"gameVersion": "1.0",
 	"magnifyWindow":true,
 	"windowMagnification":2,
@@ -416,37 +414,6 @@
 					},
 					"scenePartList": [
 							{
-			"id": 1,
-			"name": "Camera",
-			"partType": 2,
-			"layerIndex": -1,
-			"locked": false,
-			"visible": true,
-			"priority": 1,
-			"dispPriority": 0,
-
-	"othersType": 0,
-	"camera": {
-	"initialPlayerPosition": false,
-	"x": 0,
-	"y": 0,
-	"width": 640,
-	"height": 360,
-	"followTargetType": 0,
-	"objectId": -1,
-	"courseScenePartId": -1,
-	"startPointId": -1,
-	"scrollToShowAllPlayers": false,
-	"scaleToShowAllPlayers": false,
-	"maxScaling": 100.000000,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1
-}
-,
-			"folder": false
-		},
-							{
 			"id": 3,
 			"name": "shelf_manager",
 			"partType": 0,
@@ -529,6 +496,37 @@
 }
 } ] },
 	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 1,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
 ,
 			"folder": false
 		}
@@ -1932,7 +1930,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "11": 9, "10": 8, "8": 3, "7": 7, "6": 6, "3": 4, "1": 2 },
+					"objectSingleIdHash": { "6": 6, "7": 7, "1": 2, "3": 4, "8": 3, "10": 8, "11": 9 },
 			"folder": false
 				},
 				{
@@ -5245,7 +5243,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "16": 4, "14": 5, "12": 3, "21": 19, "19": 18, "1": 2, "18": 6 },
+					"objectSingleIdHash": { "16": 4, "1": 2, "18": 6, "19": 18, "12": 3, "14": 5, "21": 19 },
 			"folder": false
 				},
 				{
@@ -5593,37 +5591,6 @@
 }
 } ] },
 	"disappearActionCommandList": [  ]
-,
-			"folder": false
-		},
-							{
-			"id": 1,
-			"name": "Camera",
-			"partType": 2,
-			"layerIndex": -1,
-			"locked": false,
-			"visible": true,
-			"priority": 14,
-			"dispPriority": 0,
-
-	"othersType": 0,
-	"camera": {
-	"initialPlayerPosition": false,
-	"x": 0,
-	"y": 0,
-	"width": 640,
-	"height": 360,
-	"followTargetType": 0,
-	"objectId": -1,
-	"courseScenePartId": -1,
-	"startPointId": -1,
-	"scrollToShowAllPlayers": false,
-	"scaleToShowAllPlayers": false,
-	"maxScaling": 100.000000,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1
-}
 ,
 			"folder": false
 		},
@@ -8237,9 +8204,40 @@
 	"disappearActionCommandList": [  ]
 ,
 			"folder": false
+		},
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 14,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
+,
+			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "34": 16, "33": 15, "32": 14, "31": 13, "30": 12, "29": 11, "28": 10, "27": 9, "26": 8, "25": 7, "24": 6, "21": 3, "20": 4, "1": 2, "18": 5 },
+					"objectSingleIdHash": { "1": 2, "18": 5, "32": 14, "33": 15, "28": 10, "34": 16, "29": 11, "30": 12, "31": 13, "24": 6, "25": 7, "26": 8, "27": 9, "20": 4, "21": 3 },
 			"folder": false
 				},
 				{
@@ -8344,7 +8342,7 @@
 	"tilesetList": [
 		{"id":1,"name":"tiles","tilesetType":0,"imageId":5,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":4,"vertTileCount":4,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false},
 		{"id":2,"name":"shop","tilesetType":0,"imageId":14,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":10,"vertTileCount":6,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false},
-		{"id":3,"name":"potionmaking","tilesetType":0,"imageId":16,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":10,"vertTileCount":6,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false}
+		{"id":3,"name":"potionmaking","tilesetType":0,"imageId":16,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":10,"vertTileCount":5,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false}
 	],
 	"imageList": [
 		{"id":1,"name":"font6x10","filename":"img/001.png","srcFilename":"","horzDivCount":1,"vertDivCount":1,			"folder": false},
@@ -8364,7 +8362,8 @@
 		{"id":14,"name":"ShopWall","filename":"img/014.png","srcFilename":"I:/Games/myGames/Potion Poison/initialDesignIdeas.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
 		{"id":15,"name":"initialDesignMap","filename":"img/015.png","srcFilename":"E:/gameJam/initialDesignMap.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
 		{"id":16,"name":"initialDesignPotionMaking","filename":"img/016.png","srcFilename":"E:/gameJam/initialDesignPotionMaking.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
-		{"id":17,"name":"nextArea","filename":"img/017.png","srcFilename":"E:/gameJam/nextArea.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
+		{"id":17,"name":"nextArea","filename":"img/017.png","srcFilename":"E:/gameJam/nextArea.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
+		{"id":18,"name":"healthPotion","filename":"img/018.png","srcFilename":"E:/gameJam/healthPotion.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
 	],
 	"fontList": [
 				{
@@ -9007,7 +9006,7 @@
 		},
 				{
 			"id": 1,
-			"name": "Initialize Resources",
+			"name": "Reset",
 			"initialValue": false,
 			"toBeSaved": true,
 			"memo": "",
@@ -22250,7 +22249,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 174, 168 ], [ 177, 119 ] ],
+	"coordList": [ [ 178, 168 ], [ 179, 119 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -22279,7 +22278,7 @@
 } ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 99, 215 ], [ 99, 240 ] ],
+	"coordList": [ [ 98, 215 ], [ 98, 240 ] ],
 	"endPointFactor": [ 2588, 144 ],
 	"visible": true,
 	"num": 0,
@@ -22299,7 +22298,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 98, 287 ], [ 98, 336 ] ],
+	"coordList": [ [ 97, 287 ], [ 97, 336 ] ],
 	"endPointFactor": [ 2561, 139 ],
 	"visible": true,
 	"num": 0,
@@ -23736,7 +23735,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 5, 23 ], [ 5, 72 ] ],
+	"coordList": [ [ 4, 23 ], [ 4, 72 ] ],
 	"endPointFactor": [ 2601, 820 ],
 	"visible": true,
 	"num": 0,
@@ -23778,7 +23777,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 220, 23 ], [ 220, 72 ] ],
+	"coordList": [ [ 219, 23 ], [ 219, 72 ] ],
 	"endPointFactor": [ 2323, 616 ],
 	"visible": true,
 	"num": 0,
@@ -23843,7 +23842,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 131, 23 ], [ 131, 72 ] ],
+	"coordList": [ [ 130, 23 ], [ 130, 72 ] ],
 	"endPointFactor": [ 2438, 245 ],
 	"visible": true,
 	"num": 0,
@@ -23940,7 +23939,7 @@
 } ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 121, 215 ], [ 121, 240 ] ],
+	"coordList": [ [ 120, 215 ], [ 120, 240 ] ],
 	"endPointFactor": [ 2496, 262 ],
 	"visible": true,
 	"num": 0,
@@ -23960,7 +23959,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 121, 287 ], [ 121, 336 ] ],
+	"coordList": [ [ 120, 287 ], [ 120, 336 ] ],
 	"endPointFactor": [ 2438, 262 ],
 	"visible": true,
 	"num": 0,
@@ -25174,7 +25173,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 5, 23 ], [ 5, 72 ] ],
+	"coordList": [ [ 4, 23 ], [ 4, 72 ] ],
 	"endPointFactor": [ 2601, 820 ],
 	"visible": true,
 	"num": 0,
@@ -26388,7 +26387,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 5, 23 ], [ 5, 72 ] ],
+	"coordList": [ [ 4, 23 ], [ 4, 72 ] ],
 	"endPointFactor": [ 2601, 820 ],
 	"visible": true,
 	"num": 0,
@@ -27602,7 +27601,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 5, 23 ], [ 5, 72 ] ],
+	"coordList": [ [ 4, 23 ], [ 4, 72 ] ],
 	"endPointFactor": [ 2601, 820 ],
 	"visible": true,
 	"num": 0,
@@ -28816,7 +28815,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 5, 23 ], [ 5, 72 ] ],
+	"coordList": [ [ 4, 23 ], [ 4, 72 ] ],
 	"endPointFactor": [ 2601, 820 ],
 	"visible": true,
 	"num": 0,
@@ -30030,7 +30029,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 5, 23 ], [ 5, 72 ] ],
+	"coordList": [ [ 4, 23 ], [ 4, 72 ] ],
 	"endPointFactor": [ 2601, 820 ],
 	"visible": true,
 	"num": 0,
@@ -31244,7 +31243,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 5, 23 ], [ 5, 72 ] ],
+	"coordList": [ [ 4, 23 ], [ 4, 72 ] ],
 	"endPointFactor": [ 2601, 820 ],
 	"visible": true,
 	"num": 0,
@@ -32458,7 +32457,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 5, 23 ], [ 5, 72 ] ],
+	"coordList": [ [ 4, 23 ], [ 4, 72 ] ],
 	"endPointFactor": [ 2601, 820 ],
 	"visible": true,
 	"num": 0,
@@ -33672,7 +33671,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 5, 23 ], [ 5, 72 ] ],
+	"coordList": [ [ 4, 23 ], [ 4, 72 ] ],
 	"endPointFactor": [ 2601, 820 ],
 	"visible": true,
 	"num": 0,
@@ -34886,7 +34885,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 5, 23 ], [ 5, 72 ] ],
+	"coordList": [ [ 4, 23 ], [ 4, 72 ] ],
 	"endPointFactor": [ 2601, 820 ],
 	"visible": true,
 	"num": 0,
@@ -36100,7 +36099,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 5, 23 ], [ 5, 72 ] ],
+	"coordList": [ [ 4, 23 ], [ 4, 72 ] ],
 	"endPointFactor": [ 2601, 820 ],
 	"visible": true,
 	"num": 0,
@@ -38831,7 +38830,7 @@
 } ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 26, 120 ], [ 26, 47 ] ],
+	"coordList": [ [ 26, 120 ], [ 25, 47 ] ],
 	"endPointFactor": [ 525, 2088 ],
 	"visible": true,
 	"num": 0,
