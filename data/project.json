@@ -533,7 +533,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "22": 3, "21": 2 },
+					"objectSingleIdHash": { "21": 2, "22": 3 },
 			"folder": false
 				},
 				{
@@ -544,7 +544,7 @@
 					"tileset": [  ],
 					"memo": "",
 					"playBgmType": 1,
-					"bgmId": -1,
+					"bgmId": 1,
 					"loopBgmFlag": true,
 					"bgColorR": 0,
 					"bgColorG": 0,
@@ -1932,7 +1932,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "11": 9, "10": 8, "8": 3, "7": 7, "6": 6, "3": 4, "1": 2 },
+					"objectSingleIdHash": { "7": 7, "6": 6, "8": 3, "11": 9, "10": 8, "1": 2, "3": 4 },
 			"folder": false
 				},
 				{
@@ -1942,7 +1942,7 @@
 					"vertScreenCount": 1,
 					"tileset": [ 2 ],
 					"memo": "",
-					"playBgmType": 1,
+					"playBgmType": 2,
 					"bgmId": -1,
 					"loopBgmFlag": true,
 					"bgColorR": 0,
@@ -5606,7 +5606,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "16": 4, "14": 5, "12": 3, "21": 19, "19": 18, "1": 2, "18": 6 },
+					"objectSingleIdHash": { "19": 18, "18": 6, "21": 19, "12": 3, "14": 5, "1": 2, "16": 4 },
 			"folder": false
 				},
 				{
@@ -5616,7 +5616,7 @@
 					"vertScreenCount": 1,
 					"tileset": [  ],
 					"memo": "",
-					"playBgmType": 1,
+					"playBgmType": 2,
 					"bgmId": -1,
 					"loopBgmFlag": true,
 					"bgColorR": 0,
@@ -8600,7 +8600,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "34": 16, "33": 15, "32": 14, "31": 13, "30": 12, "29": 11, "28": 10, "27": 9, "26": 8, "25": 7, "24": 6, "21": 3, "20": 4, "1": 2, "18": 5 },
+					"objectSingleIdHash": { "32": 14, "18": 5, "21": 3, "34": 16, "20": 4, "25": 7, "24": 6, "27": 9, "26": 8, "29": 11, "28": 10, "31": 13, "30": 12, "1": 2, "33": 15 },
 			"folder": false
 				},
 				{
@@ -8610,7 +8610,7 @@
 					"vertScreenCount": 1,
 					"tileset": [  ],
 					"memo": "",
-					"playBgmType": 1,
+					"playBgmType": 2,
 					"bgmId": -1,
 					"loopBgmFlag": true,
 					"bgColorR": 0,
@@ -9013,7 +9013,18 @@
 		
 	],
 	"bgmList": [
-		
+				{
+			"id": 1,
+			"name": "lofiCollectionsByFedotovs",
+			"filename": "audio/bgm001.ogg",
+			"srcFilename": "C:/Users/Nikita/Desktop/Rem/oppai/Musica Makinca/My songs/2023/sfx/lofiCollectionsByFedotovs.ogg",
+			"volume": 20,
+			"pan": 0,
+			"pitch": 0,
+			"loop": false,
+			"srcLoop": false,
+			"folder": false
+		}
 	],
 	"seList": [
 				{
@@ -23380,7 +23391,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 219, 23 ], [ 219, 72 ] ],
+	"coordList": [ [ 218, 23 ], [ 218, 72 ] ],
 	"endPointFactor": [ 2324, 612 ],
 	"visible": true,
 	"num": 0,
@@ -26615,7 +26626,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 120, 23 ], [ 120, 72 ] ],
+	"coordList": [ [ 119, 23 ], [ 120, 72 ] ],
 	"endPointFactor": [ 2452, 200 ],
 	"visible": true,
 	"num": 0,
@@ -26657,7 +26668,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 216, 23 ], [ 216, 72 ] ],
+	"coordList": [ [ 215, 23 ], [ 216, 72 ] ],
 	"endPointFactor": [ 2328, 600 ],
 	"visible": true,
 	"num": 0,
@@ -26691,7 +26702,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 119, 119 ], [ 119, 168 ] ],
+	"coordList": [ [ 118, 119 ], [ 118, 168 ] ],
 	"endPointFactor": [ 2505, 195 ],
 	"visible": true,
 	"num": 0,
@@ -26754,7 +26765,7 @@
 } ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 120, 215 ], [ 120, 240 ] ],
+	"coordList": [ [ 120, 215 ], [ 119, 240 ] ],
 	"endPointFactor": [ 2500, 257 ],
 	"visible": true,
 	"num": 0,
@@ -26774,7 +26785,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 120, 287 ], [ 120, 336 ] ],
+	"coordList": [ [ 119, 287 ], [ 119, 336 ] ],
 	"endPointFactor": [ 2443, 257 ],
 	"visible": true,
 	"num": 0,
@@ -28325,7 +28336,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 118, 23 ], [ 118, 72 ] ],
+	"coordList": [ [ 117, 23 ], [ 117, 72 ] ],
 	"endPointFactor": [ 2455, 191 ],
 	"visible": true,
 	"num": 0,
@@ -28367,7 +28378,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 217, 23 ], [ 217, 72 ] ],
+	"coordList": [ [ 216, 23 ], [ 216, 72 ] ],
 	"endPointFactor": [ 2327, 604 ],
 	"visible": true,
 	"num": 0,
@@ -28401,7 +28412,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 119, 119 ], [ 119, 168 ] ],
+	"coordList": [ [ 118, 119 ], [ 118, 168 ] ],
 	"endPointFactor": [ 2505, 195 ],
 	"visible": true,
 	"num": 0,
@@ -28464,7 +28475,7 @@
 } ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 122, 215 ], [ 122, 240 ] ],
+	"coordList": [ [ 121, 215 ], [ 121, 240 ] ],
 	"endPointFactor": [ 2492, 267 ],
 	"visible": true,
 	"num": 0,
@@ -28484,7 +28495,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 121, 287 ], [ 121, 336 ] ],
+	"coordList": [ [ 120, 287 ], [ 120, 336 ] ],
 	"endPointFactor": [ 2438, 262 ],
 	"visible": true,
 	"num": 0,
@@ -30035,7 +30046,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 122, 23 ], [ 122, 72 ] ],
+	"coordList": [ [ 121, 23 ], [ 121, 72 ] ],
 	"endPointFactor": [ 2450, 208 ],
 	"visible": true,
 	"num": 0,
@@ -30077,7 +30088,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 216, 23 ], [ 216, 72 ] ],
+	"coordList": [ [ 215, 23 ], [ 216, 72 ] ],
 	"endPointFactor": [ 2328, 600 ],
 	"visible": true,
 	"num": 0,
@@ -31745,7 +31756,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 121, 23 ], [ 121, 72 ] ],
+	"coordList": [ [ 120, 23 ], [ 120, 72 ] ],
 	"endPointFactor": [ 2451, 204 ],
 	"visible": true,
 	"num": 0,
@@ -33455,7 +33466,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 121, 23 ], [ 121, 72 ] ],
+	"coordList": [ [ 120, 23 ], [ 120, 72 ] ],
 	"endPointFactor": [ 2451, 204 ],
 	"visible": true,
 	"num": 0,
@@ -33531,7 +33542,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 123, 119 ], [ 123, 168 ] ],
+	"coordList": [ [ 122, 119 ], [ 122, 168 ] ],
 	"endPointFactor": [ 2488, 212 ],
 	"visible": true,
 	"num": 0,
@@ -35165,7 +35176,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 121, 23 ], [ 121, 72 ] ],
+	"coordList": [ [ 120, 23 ], [ 120, 72 ] ],
 	"endPointFactor": [ 2451, 204 ],
 	"visible": true,
 	"num": 0,
@@ -35241,7 +35252,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 124, 119 ], [ 124, 168 ] ],
+	"coordList": [ [ 123, 119 ], [ 123, 168 ] ],
 	"endPointFactor": [ 2484, 216 ],
 	"visible": true,
 	"num": 0,
@@ -36875,7 +36886,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 146, 23 ], [ 146, 72 ] ],
+	"coordList": [ [ 145, 23 ], [ 145, 72 ] ],
 	"endPointFactor": [ 2419, 208 ],
 	"visible": true,
 	"num": 0,
@@ -36951,7 +36962,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 152, 119 ], [ 152, 168 ] ],
+	"coordList": [ [ 151, 119 ], [ 151, 168 ] ],
 	"endPointFactor": [ 2467, 233 ],
 	"visible": true,
 	"num": 0,
@@ -38585,7 +38596,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 121, 23 ], [ 121, 72 ] ],
+	"coordList": [ [ 120, 23 ], [ 120, 72 ] ],
 	"endPointFactor": [ 2451, 204 ],
 	"visible": true,
 	"num": 0,
@@ -38661,7 +38672,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 123, 119 ], [ 123, 168 ] ],
+	"coordList": [ [ 122, 119 ], [ 122, 168 ] ],
 	"endPointFactor": [ 2488, 212 ],
 	"visible": true,
 	"num": 0,
@@ -40295,7 +40306,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 121, 23 ], [ 121, 72 ] ],
+	"coordList": [ [ 120, 23 ], [ 120, 72 ] ],
 	"endPointFactor": [ 2451, 204 ],
 	"visible": true,
 	"num": 0,
@@ -40371,7 +40382,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 124, 119 ], [ 124, 168 ] ],
+	"coordList": [ [ 123, 119 ], [ 123, 168 ] ],
 	"endPointFactor": [ 2484, 216 ],
 	"visible": true,
 	"num": 0,
@@ -42005,7 +42016,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 121, 23 ], [ 121, 72 ] ],
+	"coordList": [ [ 120, 23 ], [ 120, 72 ] ],
 	"endPointFactor": [ 2451, 204 ],
 	"visible": true,
 	"num": 0,
@@ -42081,7 +42092,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 123, 119 ], [ 123, 168 ] ],
+	"coordList": [ [ 122, 119 ], [ 122, 168 ] ],
 	"endPointFactor": [ 2488, 212 ],
 	"visible": true,
 	"num": 0,
