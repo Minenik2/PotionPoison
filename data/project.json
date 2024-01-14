@@ -1,11 +1,10 @@
 {
-	"version": "1.0.6",
+	"version": "1.0.5",
 	"gameIcon": "",
 	"gameIconSrcFilename": "",
 	"gameType": 1,
 	"playerCount": 1,
 	"mode30Fps": false,
-	"fix60FpsMode": false,
 	"tileWidth": 64,
 	"tileHeight": 64,
 	"screenWidth": 640,
@@ -21,8 +20,7 @@
 	"nxSoftResetKeyConfig": 0,
 	"nxReturnToLauncherKeyConfig": 0,
 	"nxMenuBarVisibleKeyConfig": 0,
-	"nxSupportForSingleJoyCon": true,
-	"nxPlayerVersion": "1.0.6",
+	"nxPlayerVersion": "1.0.5",
 	"gameVersion": "1.0",
 	"magnifyWindow":true,
 	"windowMagnification":2,
@@ -1954,7 +1952,7 @@
 					"name": "playerHub",
 					"horzScreenCount": 1,
 					"vertScreenCount": 1,
-					"tileset": [ 2 ],
+					"tileset": [ 2, 4 ],
 					"memo": "",
 					"playBgmType": 2,
 					"bgmId": -1,
@@ -2063,7 +2061,18 @@
 						"name": "Layer 2"
 					},
 					"layer3": {
-						"tile": {												},
+						"tile": {						"1,1": { "tilesetId": 4, "x": 0, "y": 0  },
+						"1,2": { "tilesetId": 4, "x": 0, "y": 1  },
+						"1,3": { "tilesetId": 4, "x": 0, "y": 2  },
+						"2,1": { "tilesetId": 4, "x": 1, "y": 0  },
+						"2,2": { "tilesetId": 4, "x": 1, "y": 1  },
+						"2,3": { "tilesetId": 4, "x": 1, "y": 2  },
+						"3,1": { "tilesetId": 4, "x": 2, "y": 0  },
+						"3,2": { "tilesetId": 4, "x": 2, "y": 1  },
+						"3,3": { "tilesetId": 4, "x": 2, "y": 2  },
+						"4,1": { "tilesetId": 4, "x": 3, "y": 0  },
+						"4,2": { "tilesetId": 4, "x": 3, "y": 1  },
+						"4,3": { "tilesetId": 4, "x": 3, "y": 2  }						},
 						"name": "Layer 3"
 					},
 					"layer4": {
@@ -2078,7 +2087,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 17,
+			"priority": 21,
 			"dispPriority": 10,
 
 	"objectId": 1,
@@ -2209,7 +2218,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 7,
+			"priority": 8,
 			"dispPriority": 0,
 
 	"objectId": 12,
@@ -2268,7 +2277,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 3,
+			"priority": 4,
 			"dispPriority": 0,
 
 	"objectId": 16,
@@ -2416,7 +2425,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 14,
+			"priority": 15,
 			"dispPriority": 0,
 
 	"objectId": 14,
@@ -3148,7 +3157,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 15,
+			"priority": 16,
 			"dispPriority": 0,
 
 	"objectId": 19,
@@ -3253,37 +3262,6 @@
 	"sceneTerminate": {}
 } ] },
 	"disappearActionCommandList": [  ]
-,
-			"folder": false
-		},
-							{
-			"id": 1,
-			"name": "Camera",
-			"partType": 2,
-			"layerIndex": -1,
-			"locked": false,
-			"visible": true,
-			"priority": 16,
-			"dispPriority": 0,
-
-	"othersType": 0,
-	"camera": {
-	"initialPlayerPosition": false,
-	"x": 0,
-	"y": 0,
-	"width": 640,
-	"height": 360,
-	"followTargetType": 0,
-	"objectId": -1,
-	"courseScenePartId": -1,
-	"startPointId": -1,
-	"scrollToShowAllPlayers": false,
-	"scaleToShowAllPlayers": false,
-	"maxScaling": 100.000000,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1
-}
 ,
 			"folder": false
 		},
@@ -3889,7 +3867,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 1,
+					"priority": 2,
 					"dispPriority": 0,
 
 	"objectId": 24,
@@ -4081,7 +4059,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 2,
+					"priority": 3,
 					"dispPriority": 0,
 
 	"objectId": 25,
@@ -4299,7 +4277,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 4,
+					"priority": 5,
 					"dispPriority": 0,
 
 	"objectId": 26,
@@ -4517,7 +4495,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 5,
+					"priority": 6,
 					"dispPriority": 0,
 
 	"objectId": 27,
@@ -4735,7 +4713,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 6,
+					"priority": 7,
 					"dispPriority": 0,
 
 	"objectId": 28,
@@ -4953,7 +4931,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 8,
+					"priority": 9,
 					"dispPriority": 0,
 
 	"objectId": 29,
@@ -5171,7 +5149,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 9,
+					"priority": 10,
 					"dispPriority": 0,
 
 	"objectId": 30,
@@ -5389,7 +5367,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 10,
+					"priority": 11,
 					"dispPriority": 0,
 
 	"objectId": 31,
@@ -5607,7 +5585,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 11,
+					"priority": 12,
 					"dispPriority": 0,
 
 	"objectId": 32,
@@ -5825,7 +5803,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 12,
+					"priority": 13,
 					"dispPriority": 0,
 
 	"objectId": 33,
@@ -6043,7 +6021,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 13,
+					"priority": 14,
 					"dispPriority": 0,
 
 	"objectId": 34,
@@ -6263,7 +6241,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 21,
+			"priority": 20,
 			"dispPriority": 0,
 
 	"objectId": 22,
@@ -6376,9 +6354,40 @@
 	"disappearActionCommandList": [  ]
 ,
 			"folder": false
+		},
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 17,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
+,
+			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "21": 19, "36": 20, "22": 22, "1": 2, "16": 4, "19": 18, "18": 6, "12": 3, "14": 5 },
+					"objectSingleIdHash": { "14": 5, "21": 19, "36": 20, "1": 2, "22": 22, "16": 4, "19": 18, "18": 6, "12": 3 },
 			"folder": false
 				},
 				{
@@ -9433,7 +9442,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "27": 9, "26": 8, "21": 3, "20": 4, "33": 15, "32": 14, "1": 2, "34": 16, "18": 5, "29": 11, "28": 10, "31": 13, "30": 12, "25": 7, "24": 6 },
+					"objectSingleIdHash": { "31": 13, "30": 12, "25": 7, "24": 6, "27": 9, "26": 8, "21": 3, "20": 4, "1": 2, "33": 15, "32": 14, "18": 5, "34": 16, "29": 11, "28": 10 },
 			"folder": false
 				},
 				{
@@ -9533,12 +9542,170 @@
 					],
 					"objectSingleIdHash": {  },
 			"folder": false
+				},
+				{
+					"id": 5,
+					"name": "Abdi-potion ",
+					"horzScreenCount": 1,
+					"vertScreenCount": 1,
+					"tileset": [ 3 ],
+					"memo": "",
+					"playBgmType": 1,
+					"bgmId": -1,
+					"loopBgmFlag": true,
+					"bgColorR": 0,
+					"bgColorG": 0,
+					"bgColorB": 0,
+					"setBgImageFlag": false,
+					"bgImageId": -1,
+					"bgImagePlacement": 0,
+					"bgImageMoveSpeed": 0,
+					"bgImageMoveDirection": 0,
+					"bgMoveSpeed": 100,
+					"bgMoveSpeedY": 100,
+					"layerMoveSpeed": [100, 100, 100, 100],
+					"layerMoveSpeedY": [100, 100, 100, 100],
+					"gravityAccel": 0,
+					"gravityDirection": 180,
+					"airResistance": 1,
+					"screenAutoScroll": false,
+					"screenAutoScrollSpeed": 0,
+					"screenAutoScrollDirection": 270,
+					"screenAutoScrollSwitchObjectId": -1,
+					"screenAutoScrollSwitchQualifierId": -1,
+					"screenAutoScrollSwitchId": -1,
+					"limitAreaX": 0,
+					"limitAreaY": 0,
+					"limitAreaWidth": 640,
+					"limitAreaHeight": 360,
+					"disableLimitArea": false,
+					"limitCameraX": 0,
+					"limitCameraY": 0,
+					"limitCameraWidth": 640,
+					"limitCameraHeight": 360,
+					"disableLimitCamera": false,
+					"initialMenuLayerId": -1,
+					"preloadMenuLayerIdList": [],
+					"sceneFilterEffectList": [
+					
+					],
+					"layer1": {
+						"tile": {						"0,0": { "tilesetId": 3, "x": 0, "y": 0  },
+						"0,1": { "tilesetId": 3, "x": 0, "y": 1  },
+						"0,2": { "tilesetId": 3, "x": 0, "y": 2  },
+						"0,3": { "tilesetId": 3, "x": 0, "y": 3  },
+						"0,4": { "tilesetId": 3, "x": 0, "y": 4  },
+						"0,5": { "tilesetId": 3, "x": 0, "y": 5  },
+						"1,0": { "tilesetId": 3, "x": 1, "y": 0  },
+						"1,1": { "tilesetId": 3, "x": 1, "y": 1  },
+						"1,2": { "tilesetId": 3, "x": 1, "y": 2  },
+						"1,3": { "tilesetId": 3, "x": 1, "y": 3  },
+						"1,4": { "tilesetId": 3, "x": 1, "y": 4  },
+						"1,5": { "tilesetId": 3, "x": 1, "y": 5  },
+						"2,0": { "tilesetId": 3, "x": 2, "y": 0  },
+						"2,1": { "tilesetId": 3, "x": 2, "y": 1  },
+						"2,2": { "tilesetId": 3, "x": 2, "y": 2  },
+						"2,3": { "tilesetId": 3, "x": 2, "y": 3  },
+						"2,4": { "tilesetId": 3, "x": 2, "y": 4  },
+						"2,5": { "tilesetId": 3, "x": 2, "y": 5  },
+						"3,0": { "tilesetId": 3, "x": 3, "y": 0  },
+						"3,1": { "tilesetId": 3, "x": 3, "y": 1  },
+						"3,2": { "tilesetId": 3, "x": 3, "y": 2  },
+						"3,3": { "tilesetId": 3, "x": 3, "y": 3  },
+						"3,4": { "tilesetId": 3, "x": 3, "y": 4  },
+						"3,5": { "tilesetId": 3, "x": 3, "y": 5  },
+						"4,0": { "tilesetId": 3, "x": 4, "y": 0  },
+						"4,1": { "tilesetId": 3, "x": 4, "y": 1  },
+						"4,2": { "tilesetId": 3, "x": 4, "y": 2  },
+						"4,3": { "tilesetId": 3, "x": 4, "y": 3  },
+						"4,4": { "tilesetId": 3, "x": 4, "y": 4  },
+						"4,5": { "tilesetId": 3, "x": 4, "y": 5  },
+						"5,0": { "tilesetId": 3, "x": 5, "y": 0  },
+						"5,1": { "tilesetId": 3, "x": 5, "y": 1  },
+						"5,2": { "tilesetId": 3, "x": 5, "y": 2  },
+						"5,3": { "tilesetId": 3, "x": 5, "y": 3  },
+						"5,4": { "tilesetId": 3, "x": 5, "y": 4  },
+						"5,5": { "tilesetId": 3, "x": 5, "y": 5  },
+						"6,0": { "tilesetId": 3, "x": 6, "y": 0  },
+						"6,1": { "tilesetId": 3, "x": 6, "y": 1  },
+						"6,2": { "tilesetId": 3, "x": 6, "y": 2  },
+						"6,3": { "tilesetId": 3, "x": 6, "y": 3  },
+						"6,4": { "tilesetId": 3, "x": 6, "y": 4  },
+						"6,5": { "tilesetId": 3, "x": 6, "y": 5  },
+						"7,0": { "tilesetId": 3, "x": 7, "y": 0  },
+						"7,1": { "tilesetId": 3, "x": 7, "y": 1  },
+						"7,2": { "tilesetId": 3, "x": 7, "y": 2  },
+						"7,3": { "tilesetId": 3, "x": 7, "y": 3  },
+						"7,4": { "tilesetId": 3, "x": 7, "y": 4  },
+						"7,5": { "tilesetId": 3, "x": 7, "y": 5  },
+						"8,0": { "tilesetId": 3, "x": 8, "y": 0  },
+						"8,1": { "tilesetId": 3, "x": 8, "y": 1  },
+						"8,2": { "tilesetId": 3, "x": 8, "y": 2  },
+						"8,3": { "tilesetId": 3, "x": 8, "y": 3  },
+						"8,4": { "tilesetId": 3, "x": 8, "y": 4  },
+						"8,5": { "tilesetId": 3, "x": 8, "y": 5  },
+						"9,0": { "tilesetId": 3, "x": 9, "y": 0  },
+						"9,1": { "tilesetId": 3, "x": 9, "y": 1  },
+						"9,2": { "tilesetId": 3, "x": 9, "y": 2  },
+						"9,3": { "tilesetId": 3, "x": 9, "y": 3  },
+						"9,4": { "tilesetId": 3, "x": 9, "y": 4  },
+						"9,5": { "tilesetId": 3, "x": 9, "y": 5  }						},
+						"name": "Layer 1"
+					},
+					"layer2": {
+						"tile": {												},
+						"name": "Layer 2"
+					},
+					"layer3": {
+						"tile": {												},
+						"name": "Layer 3"
+					},
+					"layer4": {
+						"tile": {												},
+						"name": "Layer 4"
+					},
+					"scenePartList": [
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 0,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
+,
+			"folder": false
+		}
+					],
+					"objectSingleIdHash": {  },
+			"folder": false
 				}
 	],
 	"tilesetList": [
 		{"id":1,"name":"tiles","tilesetType":0,"imageId":5,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":4,"vertTileCount":4,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false},
 		{"id":2,"name":"shop","tilesetType":0,"imageId":14,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":10,"vertTileCount":6,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false},
-		{"id":3,"name":"potionmaking","tilesetType":0,"imageId":16,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":10,"vertTileCount":5,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false}
+		{"id":3,"name":"potionmaking","tilesetType":0,"imageId":16,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":10,"vertTileCount":5,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false},
+		{"id":4,"name":"Npc1","tilesetType":0,"imageId":19,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":4,"vertTileCount":3,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false}
 	],
 	"imageList": [
 		{"id":1,"name":"font6x10","filename":"img/001.png","srcFilename":"","horzDivCount":1,"vertDivCount":1,			"folder": false},
@@ -9559,7 +9726,15 @@
 		{"id":14,"name":"ShopWall","filename":"img/014.png","srcFilename":"I:/Games/myGames/Potion Poison/initialDesignIdeas.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
 		{"id":15,"name":"initialDesignMap","filename":"img/015.png","srcFilename":"E:/gameJam/initialDesignMap.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
 		{"id":16,"name":"initialDesignPotionMaking","filename":"img/016.png","srcFilename":"E:/gameJam/initialDesignPotionMaking.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
-		{"id":17,"name":"nextArea","filename":"img/017.png","srcFilename":"E:/gameJam/nextArea.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
+		{"id":17,"name":"nextArea","filename":"img/017.png","srcFilename":"E:/gameJam/nextArea.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
+		{"id":19,"name":"npc1","filename":"img/019.png","srcFilename":"E:/gameJam/npc1.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
+		{"id":20,"name":"Npc2","filename":"img/020.png","srcFilename":"E:/gameJam/Npc2.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
+		{"id":21,"name":"Npc3","filename":"img/021.png","srcFilename":"E:/gameJam/Npc3.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
+		{"id":22,"name":"Herbs-for potion",			"folder": true, 	"children": [
+{"id":23,"name":"Herbs1","filename":"img/023.png","srcFilename":"E:/gameJam/Herbs1.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
+{"id":24,"name":"Herbs2","filename":"img/024.png","srcFilename":"E:/gameJam/Herbs2.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
+{"id":25,"name":"Herbs3","filename":"img/025.png","srcFilename":"E:/gameJam/Herbs3.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
+	]}
 	],
 	"fontList": [
 				{
@@ -10407,7 +10582,7 @@
 		},
 				{
 			"id": 1,
-			"name": "Initialize Resources",
+			"name": "Reset",
 			"initialValue": false,
 			"toBeSaved": true,
 			"memo": "",
@@ -23851,7 +24026,7 @@
 }
 } ],
 	"memo": "serve is on chosen potion is nothing",
-	"coordList": [ [ 219, 911 ], [ 57, 1008 ] ],
+	"coordList": [ [ 212, 911 ], [ 57, 1008 ] ],
 	"endPointFactor": [ -1, 567 ],
 	"visible": true,
 	"num": 0,
@@ -23924,7 +24099,7 @@
 }
 } ],
 	"memo": "serve is on chosen potion is health potion",
-	"coordList": [ [ 255, 911 ], [ 252, 1008 ] ],
+	"coordList": [ [ 252, 911 ], [ 252, 1008 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -24077,7 +24252,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 257, 1055 ], [ 257, 1104 ] ],
+	"coordList": [ [ 256, 1055 ], [ 256, 1104 ] ],
 	"endPointFactor": [ 2224, 605 ],
 	"visible": true,
 	"num": 0,
@@ -24195,7 +24370,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 480, 1213 ], [ 431, 1216 ] ],
+	"coordList": [ [ 480, 1218 ], [ 431, 1220 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -24215,7 +24390,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 259, 1151 ], [ 318, 1200 ] ],
+	"coordList": [ [ 257, 1151 ], [ 317, 1200 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -47791,7 +47966,7 @@
 }
 } ],
 	"memo": "the potion on the counter is health potion",
-	"coordList": [ [ 169, 167 ], [ 169, 240 ] ],
+	"coordList": [ [ 168, 167 ], [ 168, 240 ] ],
 	"endPointFactor": [ 2290, 93 ],
 	"visible": true,
 	"num": 0,
@@ -47884,7 +48059,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 429, 167 ], [ 429, 240 ] ],
+	"coordList": [ [ 428, 167 ], [ 428, 240 ] ],
 	"endPointFactor": [ 1847, 112 ],
 	"visible": true,
 	"num": 0,
@@ -47904,7 +48079,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 434, 287 ], [ 434, 360 ] ],
+	"coordList": [ [ 433, 287 ], [ 434, 360 ] ],
 	"endPointFactor": [ 2561, 575 ],
 	"visible": true,
 	"num": 0,
