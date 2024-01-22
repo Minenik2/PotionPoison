@@ -730,7 +730,7 @@
 } ],
 	"postMoveExecuteObjectAction": false,
 	"postMoveObjectActionList": [  ],
-	"coordList": [ [ 579, 432 ], [ 579, 359 ] ],
+	"coordList": [ [ 578, 432 ], [ 578, 359 ] ],
 	"endPointFactor": [ 689, 2082 ],
 	"visible": true,
 	"num": 0,
@@ -2231,7 +2231,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "8": 3, "3": 4, "1": 2, "6": 6, "7": 7, "10": 8, "11": 9 },
+					"objectSingleIdHash": { "8": 3, "10": 8, "11": 9, "1": 2, "3": 4, "6": 6, "7": 7 },
 			"folder": false
 				},
 				{
@@ -5876,7 +5876,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "14": 5, "12": 3, "19": 18, "45": 23, "16": 4, "1": 2, "22": 22, "48": 24, "21": 19, "55": 27, "36": 20 },
+					"objectSingleIdHash": { "45": 23, "12": 3, "48": 24, "14": 5, "16": 4, "1": 2, "19": 18, "36": 20, "21": 19, "55": 27, "22": 22 },
 			"folder": false
 				},
 				{
@@ -9126,7 +9126,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "42": 19, "43": 21, "41": 18, "44": 20, "45": 22, "1": 2, "20": 4, "21": 3, "38": 17, "55": 27, "52": 23 },
+					"objectSingleIdHash": { "42": 19, "43": 21, "44": 20, "45": 22, "1": 2, "52": 23, "20": 4, "21": 3, "38": 17, "55": 27, "41": 18 },
 			"folder": false
 				},
 				{
@@ -12246,7 +12246,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 13,
+			"priority": 14,
 			"dispPriority": 10,
 
 	"objectId": 1,
@@ -12518,44 +12518,13 @@
 			"folder": false
 		},
 							{
-			"id": 1,
-			"name": "Camera",
-			"partType": 2,
-			"layerIndex": -1,
-			"locked": false,
-			"visible": true,
-			"priority": 11,
-			"dispPriority": 0,
-
-	"othersType": 0,
-	"camera": {
-	"initialPlayerPosition": false,
-	"x": 0,
-	"y": 0,
-	"width": 640,
-	"height": 360,
-	"followTargetType": 0,
-	"objectId": -1,
-	"courseScenePartId": -1,
-	"startPointId": -1,
-	"scrollToShowAllPlayers": false,
-	"scaleToShowAllPlayers": false,
-	"maxScaling": 100.000000,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1
-}
-,
-			"folder": false
-		},
-							{
 			"id": 15,
 			"name": "tutorial_map_dialogue",
 			"partType": 0,
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 14,
+			"priority": 13,
 			"dispPriority": 0,
 
 	"objectId": 61,
@@ -12706,13 +12675,44 @@
 	"pan": 0,
 	"pitch": 0
 }
-} ], "3": [  ], "4": [  ], "5": [  ] },
+} ], "3": [  ], "4": [  ], "5": [  ], "6": [  ] },
 	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 11,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
 ,
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "61": 15, "51": 14, "1": 13, "49": 2 },
+					"objectSingleIdHash": { "61": 15, "49": 2, "51": 14, "1": 13 },
 			"folder": false
 				},
 				{
@@ -12729,8 +12729,8 @@
 					"bgColorG": 0,
 					"bgColorB": 0,
 					"setBgImageFlag": true,
-					"bgImageId": 14,
-					"bgImagePlacement": 0,
+					"bgImageId": 39,
+					"bgImagePlacement": 1,
 					"bgImageMoveSpeed": 0,
 					"bgImageMoveDirection": 0,
 					"bgMoveSpeed": 100,
@@ -12778,37 +12778,6 @@
 						"name": "Layer 4"
 					},
 					"scenePartList": [
-							{
-			"id": 1,
-			"name": "Camera",
-			"partType": 2,
-			"layerIndex": -1,
-			"locked": false,
-			"visible": true,
-			"priority": 7,
-			"dispPriority": 0,
-
-	"othersType": 0,
-	"camera": {
-	"initialPlayerPosition": false,
-	"x": 0,
-	"y": 0,
-	"width": 640,
-	"height": 360,
-	"followTargetType": 0,
-	"objectId": -1,
-	"courseScenePartId": -1,
-	"startPointId": -1,
-	"scrollToShowAllPlayers": false,
-	"scaleToShowAllPlayers": false,
-	"maxScaling": 100.000000,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1
-}
-,
-			"folder": false
-		},
 							{
 			"id": 2,
 			"name": "nextAreaButton",
@@ -12931,15 +12900,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 3,
+			"priority": 2,
 			"dispPriority": 0,
 
 	"objectId": 59,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 130,
-	"y": 100,
+	"x": 116,
+	"y": 133,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -13137,15 +13106,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 4,
+			"priority": 5,
 			"dispPriority": 0,
 
 	"objectId": 60,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 133,
-	"y": 164,
+	"x": 114,
+	"y": 226,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -13343,15 +13312,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 2,
+			"priority": 3,
 			"dispPriority": 0,
 
 	"objectId": 38,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 310,
-	"y": 100,
+	"x": 256,
+	"y": 133,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -13596,15 +13565,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 5,
+			"priority": 4,
 			"dispPriority": 0,
 
 	"objectId": 52,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 310,
-	"y": 165,
+	"x": 257,
+	"y": 226,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -13849,7 +13818,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 1,
+			"priority": 0,
 			"dispPriority": 0,
 
 	"objectId": 1,
@@ -13980,15 +13949,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 0,
+			"priority": 1,
 			"dispPriority": 0,
 
 	"objectId": 22,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 218,
-	"y": 28,
+	"x": 448,
+	"y": 43,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -14093,9 +14062,40 @@
 	"disappearActionCommandList": [  ]
 ,
 			"folder": false
+		},
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 7,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
+,
+			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "59": 3, "60": 4, "1": 7, "22": 8, "38": 5, "52": 6 },
+					"objectSingleIdHash": { "59": 3, "60": 4, "1": 7, "52": 6, "38": 5, "22": 8 },
 			"folder": false
 				},
 				{
@@ -21230,7 +21230,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "14": 5, "12": 3, "18": 6, "19": 18, "45": 23, "16": 4, "1": 2, "22": 22, "48": 24, "21": 19, "36": 20 },
+							"objectSingleIdHash": { "45": 23, "12": 3, "48": 24, "14": 5, "16": 4, "1": 2, "18": 6, "19": 18, "36": 20, "21": 19, "22": 22 },
 					"folder": false
 						},
 				{
@@ -25119,7 +25119,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "1": 2, "34": 16, "32": 14, "33": 15, "38": 17, "42": 19, "43": 21, "41": 18, "18": 5, "44": 20, "45": 22, "20": 4, "21": 3, "26": 8, "27": 9, "24": 6, "25": 7, "52": 23, "30": 12, "31": 13, "28": 10, "29": 11 },
+							"objectSingleIdHash": { "26": 8, "27": 9, "28": 10, "29": 11, "30": 12, "31": 13, "52": 23, "18": 5, "20": 4, "21": 3, "41": 18, "42": 19, "43": 21, "44": 20, "45": 22, "32": 14, "33": 15, "34": 16, "1": 2, "38": 17, "24": 6, "25": 7 },
 					"folder": false
 						}
 	]
@@ -25173,7 +25173,8 @@
 {"id":36,"name":"ayaya","filename":"img/036.png","srcFilename":"I:/Games/myGames/Potion Poison/ayaya.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
 {"id":37,"name":"marcel","filename":"img/037.png","srcFilename":"I:/Games/myGames/Potion Poison/marcel.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
 {"id":38,"name":"frog","filename":"img/038.png","srcFilename":"I:/Games/myGames/Potion Poison/frog.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
-	]}
+	]},
+		{"id":39,"name":"shopmenu","filename":"img/039.png","srcFilename":"I:/Games/myGames/Potion Poison/shopmenu.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
 	],
 	"fontList": [
 				{
@@ -25974,7 +25975,7 @@
 			"fontId": 4,
 			"letterSpacing": 0,
 			"lineSpacing": 0,
-			"text": { "en_US": "It's you job 'as a nice \nhuman being' to give \nthem the right potion \nremoving the poison" },
+			"text": { "en_US": "It's your job 'as a nice \nhuman being' to give \nthem the right potion \nremoving the poison" },
 			"folder": false
 		},
 				{
@@ -26137,6 +26138,15 @@
 			"letterSpacing": 0,
 			"lineSpacing": 0,
 			"text": { "en_US": "I don't think\nI will be coming\nback" },
+			"folder": false
+		},
+				{
+			"id": 99,
+			"name": "but if you",
+			"fontId": 4,
+			"letterSpacing": 0,
+			"lineSpacing": 0,
+			"text": { "en_US": "but if you give them\nthe wrong potion\nthe poison will\nincrease" },
 			"folder": false
 		}
 	],
@@ -49492,7 +49502,7 @@
 	"instanceConfigurable": false,
 	"messageShow": {
 	"textFlag": true,
-	"textId": 76,
+	"textId": 98,
 	"variableObjectId": -1,
 	"variableQualifierId": -1,
 	"variableId": -1,
@@ -52697,7 +52707,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 1777, 719 ], [ 1777, 768 ] ],
+	"coordList": [ [ 1773, 719 ], [ 1776, 768 ] ],
 	"endPointFactor": [ 2420, 391 ],
 	"visible": true,
 	"num": 0,
@@ -54351,7 +54361,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 2597, 719 ], [ 2597, 768 ] ],
+	"coordList": [ [ 2593, 719 ], [ 2596, 768 ] ],
 	"endPointFactor": [ 2277, 412 ],
 	"visible": true,
 	"num": 0,
@@ -56355,7 +56365,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -768, 1871 ], [ -959, 1319 ] ],
+	"coordList": [ [ -768, 1871 ], [ -963, 1319 ] ],
 	"endPointFactor": [ 3004, -1 ],
 	"visible": true,
 	"num": 0,
@@ -56397,7 +56407,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -72, 799 ], [ -1848, 984 ] ],
+	"coordList": [ [ -72, 800 ], [ -1848, 984 ] ],
 	"endPointFactor": [ -1, 1350 ],
 	"visible": true,
 	"num": 0,
@@ -56824,7 +56834,7 @@
 }
 } ],
 	"memo": "serve is on chosen potion is nothing",
-	"coordList": [ [ -2093, 1439 ], [ -2305, 1584 ] ],
+	"coordList": [ [ -2088, 1439 ], [ -2304, 1584 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -57097,7 +57107,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -2329, 1631 ], [ -2332, 1848 ] ],
+	"coordList": [ [ -2339, 1631 ], [ -2332, 1848 ] ],
 	"endPointFactor": [ -1, 488 ],
 	"visible": true,
 	"num": 0,
@@ -57226,7 +57236,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ -2052, 1871 ], [ -1997, 1944 ] ],
+	"coordList": [ [ -2056, 1871 ], [ -1998, 1944 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -57721,7 +57731,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -2328, 1895 ], [ -2160, 2410 ] ],
+	"coordList": [ [ -2331, 1895 ], [ -2160, 2410 ] ],
 	"endPointFactor": [ -1, 2961 ],
 	"visible": true,
 	"num": 0,
@@ -57746,11 +57756,11 @@
 	"condAnd": true,
 	"notFlag": false,
 	"probability": {
-	"probability": 10
+	"probability": 20
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 3422, 719 ], [ 3422, 768 ] ],
+	"coordList": [ [ 3418, 719 ], [ 3421, 768 ] ],
 	"endPointFactor": [ 2133, 460 ],
 	"visible": true,
 	"num": 0,
@@ -58084,7 +58094,7 @@
 }
 } ],
 	"memo": "serve is on chosen potion is nothing",
-	"coordList": [ [ 3399, 1103 ], [ 3311, 1200 ] ],
+	"coordList": [ [ 3398, 1103 ], [ 3311, 1200 ] ],
 	"endPointFactor": [ -1, 514 ],
 	"visible": true,
 	"num": 0,
@@ -58230,7 +58240,7 @@
 }
 } ],
 	"memo": "serve is on chosen potion is poison potion",
-	"coordList": [ [ 3479, 1103 ], [ 3790, 1200 ] ],
+	"coordList": [ [ 3493, 1103 ], [ 3790, 1200 ] ],
 	"endPointFactor": [ -1, 508 ],
 	"visible": true,
 	"num": 0,
@@ -58473,6 +58483,26 @@
 } ],
 	"memo": "serve is on chosen potion is nothing",
 	"coordList": [ [ 3300, 1247 ], [ 3300, 1368 ] ],
+	"endPointFactor": [ -1, -1 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+}, {
+	"id": 145,
+	"typeIdPair": [ [0, 123, -1], [0, 124, -1] ],
+	"linkType": 0,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 3,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [  ],
+	"memo": "",
+	"coordList": [ [ 3300, 1415 ], [ 3300, 1512 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -107373,7 +107403,7 @@
 } ],
 	"memo": "",
 	"x": -96,
-	"y": 384,
+	"y": 528,
 	"width": 192,
 	"height": 48,
 	"shortcutList": []
@@ -107661,6 +107691,102 @@
 } ],
 	"memo": "",
 	"x": -96,
+	"y": 384,
+	"width": 192,
+	"height": 48,
+	"shortcutList": []
+}, {
+	"id": 6,
+	"name": "hello(1)(1)(1)(1)(1)",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": -1,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 1,
+	"commandType": 26,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"messageShow": {
+	"textFlag": true,
+	"textId": 81,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"fontId": -1,
+	"digitFlag": false,
+	"digits": 0,
+	"zeroPadding": false,
+	"comma": false,
+	"withoutDecimalPlaces": false,
+	"colorA": 255,
+	"colorR": 255,
+	"colorG": 255,
+	"colorB": 255,
+	"windowType": 0,
+	"templateId": 0,
+	"imageId": -1,
+	"windowTransparency": 0,
+	"windowWidth": 300,
+	"windowHeight": 80,
+	"positionType": 0,
+	"useConnect": false,
+	"connectId": -1,
+	"adjustX": 0,
+	"adjustY": 0,
+	"topBottomMargin": 0,
+	"leftRightMargin": 0,
+	"horzAlign": 1,
+	"vertAlign": 1,
+	"duration300": 300,
+	"durationUnlimited": true,
+	"actionChangeHide": true,
+	"closeByKey": false,
+	"keyId": -1,
+	"objectStop": false,
+	"gameStop": false,
+	"priorityMostFront": false,
+	"priority": false,
+	"priorityType": 1
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 8,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 40,
+	"pan": 0,
+	"pitch": 0
+}
+} ],
+	"memo": "",
+	"x": -96,
 	"y": 288,
 	"width": 192,
 	"height": 48,
@@ -107726,7 +107852,7 @@
 	"actionLinkIdList": [  ]
 }, {
 	"id": 3,
-	"typeIdPair": [ [0, 4, -1], [0, 5, -1] ],
+	"typeIdPair": [ [0, 4, -1], [0, 6, -1] ],
 	"linkType": 0,
 	"priority": 0,
 	"a": 255,
@@ -107748,8 +107874,8 @@
 } ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ -1, 239 ], [ -1, 288 ] ],
-	"endPointFactor": [ 2255, 445 ],
+	"coordList": [ [ -1, 239 ], [ -2, 288 ] ],
+	"endPointFactor": [ 2255, 439 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
@@ -107777,7 +107903,7 @@
 } ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 0, 335 ], [ 0, 384 ] ],
+	"coordList": [ [ 0, 431 ], [ 0, 528 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -111543,7 +111669,7 @@
 } ],
 	"postMoveExecuteObjectAction": false,
 	"postMoveObjectActionList": [  ],
-	"coordList": [ [ 579, 432 ], [ 579, 359 ] ],
+	"coordList": [ [ 578, 432 ], [ 578, 359 ] ],
 	"endPointFactor": [ 689, 2082 ],
 	"visible": true,
 	"num": 0,
