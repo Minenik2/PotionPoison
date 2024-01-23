@@ -3805,7 +3805,33 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
-} ], "111": [  ], "112": [  ], "113": [  ], "114": [  ], "115": [  ], "117": [  ], "118": [  ], "119": [  ], "120": [  ], "121": [  ], "122": [  ], "123": [  ], "124": [  ], "125": [  ], "126": [  ], "127": [  ], "128": [  ], "129": [  ], "130": [  ], "131": [  ], "132": [  ], "133": [  ], "134": [  ], "135": [  ], "136": [  ], "137": [ {
+} ], "111": [  ], "112": [  ], "113": [  ], "114": [  ], "115": [  ], "116": [  ], "117": [  ], "118": [  ], "119": [  ], "120": [  ], "121": [  ], "122": [  ], "123": [  ], "124": [  ], "125": [  ], "126": [  ], "127": [  ], "128": [  ], "129": [  ], "130": [  ], "131": [  ], "132": [  ], "133": [ {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2035,
+	"switchValue": 0,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+} ], "134": [  ], "135": [  ], "136": [  ], "137": [ {
 	"id": 3,
 	"commandType": 31,
 	"ignored": false,
@@ -3831,7 +3857,7 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
-} ], "138": [  ], "140": [  ], "141": [  ], "142": [  ], "143": [  ], "144": [  ], "145": [  ], "146": [  ], "147": [  ], "148": [  ], "149": [ {
+} ], "138": [  ], "139": [  ], "140": [  ], "141": [  ], "142": [  ], "143": [  ], "144": [  ], "145": [  ], "146": [  ], "147": [  ], "148": [  ], "149": [ {
 	"id": 1,
 	"commandType": 31,
 	"ignored": false,
@@ -4273,7 +4299,7 @@
 	"pan": 0,
 	"pitch": 0
 }
-} ], "297": [  ], "298": [  ], "299": [  ], "300": [  ] },
+} ], "297": [  ], "298": [  ], "299": [  ], "300": [  ], "301": [  ], "302": [  ] },
 	"disappearActionCommandList": [  ]
 ,
 			"folder": false
@@ -18013,7 +18039,33 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
-} ], "111": [  ], "112": [  ], "113": [  ], "114": [  ], "115": [  ], "117": [  ], "118": [  ], "119": [  ], "120": [  ], "121": [  ], "122": [  ], "123": [  ], "124": [  ], "125": [  ], "126": [  ], "127": [  ], "128": [  ], "129": [  ], "130": [  ], "131": [  ], "132": [  ], "133": [  ], "134": [  ], "135": [  ], "136": [  ], "137": [ {
+} ], "111": [  ], "112": [  ], "113": [  ], "114": [  ], "115": [  ], "116": [  ], "117": [  ], "118": [  ], "119": [  ], "120": [  ], "121": [  ], "122": [  ], "123": [  ], "124": [  ], "125": [  ], "126": [  ], "127": [  ], "128": [  ], "129": [  ], "130": [  ], "131": [  ], "132": [  ], "133": [ {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2035,
+	"switchValue": 0,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+} ], "134": [  ], "135": [  ], "136": [  ], "137": [ {
 	"id": 3,
 	"commandType": 31,
 	"ignored": false,
@@ -18039,7 +18091,7 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
-} ], "138": [  ], "140": [  ], "141": [  ], "142": [  ], "143": [  ], "144": [  ], "145": [  ], "146": [  ], "147": [  ], "148": [  ], "149": [ {
+} ], "138": [  ], "139": [  ], "140": [  ], "141": [  ], "142": [  ], "143": [  ], "144": [  ], "145": [  ], "146": [  ], "147": [  ], "148": [  ], "149": [ {
 	"id": 1,
 	"commandType": 31,
 	"ignored": false,
@@ -18481,7 +18533,7 @@
 	"pan": 0,
 	"pitch": 0
 }
-} ], "297": [  ], "298": [  ], "299": [  ], "300": [  ] },
+} ], "297": [  ], "298": [  ], "299": [  ], "300": [  ], "301": [  ], "302": [  ] },
 	"disappearActionCommandList": [  ]
 ,
 			"folder": false
@@ -26837,7 +26889,7 @@
 			"fontId": 4,
 			"letterSpacing": 0,
 			"lineSpacing": 0,
-			"text": { "en_US": "ehh speaking of vomit, could\nI have a GREEEN potion please?" },
+			"text": { "en_US": "ehh speaking of vomit, \ncould I have a GREEEN \npotion please?" },
 			"folder": false
 		},
 				{
@@ -28016,6 +28068,14 @@
 					"initialValue": false,
 					"toBeSaved": true,
 					"memo": "ptsd",
+					"folder": false
+				},
+				{
+					"id": 2035,
+					"name": "froggyMet",
+					"initialValue": false,
+					"toBeSaved": true,
+					"memo": "",
 					"folder": false
 				}
 	]
@@ -41271,7 +41331,7 @@
 	"y": 912,
 	"width": 168,
 	"height": 48,
-	"shortcutList": []
+	"shortcutList": [{"x":168.000000,"y":456.000000,"width":168.000000,"height":72.000000}]
 }, {
 	"id": 21,
 	"name": "Change Scene",
@@ -51191,6 +51251,32 @@
 	"qualifierId": -1,
 	"actionId": 4
 }
+}, {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2035,
+	"switchValue": 0,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
 } ],
 	"memo": "",
 	"x": 3432,
@@ -58350,7 +58436,7 @@
 } ],
 	"memo": "",
 	"x": 1680,
-	"y": 4536,
+	"y": 4704,
 	"width": 168,
 	"height": 48,
 	"shortcutList": []
@@ -60181,7 +60267,7 @@
 } ],
 	"memo": "",
 	"x": -648,
-	"y": 3312,
+	"y": 3504,
 	"width": 168,
 	"height": 48,
 	"shortcutList": []
@@ -64697,7 +64783,7 @@
 } ],
 	"memo": "",
 	"x": 2496,
-	"y": 4608,
+	"y": 4704,
 	"width": 168,
 	"height": 48,
 	"shortcutList": []
@@ -65444,7 +65530,7 @@
 } ],
 	"memo": "",
 	"x": 2496,
-	"y": 4728,
+	"y": 4872,
 	"width": 168,
 	"height": 48,
 	"shortcutList": []
@@ -66994,6 +67080,470 @@
 	"memo": "",
 	"x": -5232,
 	"y": 936,
+	"width": 168,
+	"height": 48,
+	"shortcutList": []
+}, {
+	"id": 116,
+	"name": "finish serve(5)(2)",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": -1,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 3,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2004,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 4,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2005,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": 0,
+	"variableQualifierId": -1,
+	"variableId": 2012,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 2,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": 36,
+	"qualifierId": -1,
+	"actionId": 1
+}
+} ],
+	"memo": "removes the serve and counter active boolean\n\nsets choosenPotion to 0\n\nmakes the potion_counter have nothing",
+	"x": 2472,
+	"y": 4608,
+	"width": 168,
+	"height": 48,
+	"shortcutList": []
+}, {
+	"id": 139,
+	"name": "finish serve(5)(2)(1)",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": -1,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 3,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2004,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 4,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2005,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": 0,
+	"variableQualifierId": -1,
+	"variableId": 2012,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 2,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": 36,
+	"qualifierId": -1,
+	"actionId": 1
+}
+} ],
+	"memo": "removes the serve and counter active boolean\n\nsets choosenPotion to 0\n\nmakes the potion_counter have nothing",
+	"x": 1680,
+	"y": 4560,
+	"width": 168,
+	"height": 48,
+	"shortcutList": []
+}, {
+	"id": 301,
+	"name": "finish serve(5)(2)(2)",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": -1,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 3,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2004,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 4,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2005,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": 0,
+	"variableQualifierId": -1,
+	"variableId": 2012,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 2,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": 36,
+	"qualifierId": -1,
+	"actionId": 1
+}
+} ],
+	"memo": "removes the serve and counter active boolean\n\nsets choosenPotion to 0\n\nmakes the potion_counter have nothing",
+	"x": 3360,
+	"y": 3120,
+	"width": 168,
+	"height": 48,
+	"shortcutList": []
+}, {
+	"id": 302,
+	"name": "finish serve(1)(4)(1)",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": -1,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 3,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2004,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 4,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2005,
+	"switchValue": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": 0,
+	"variableQualifierId": -1,
+	"variableId": 2012,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 2,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": 36,
+	"qualifierId": -1,
+	"actionId": 1
+}
+} ],
+	"memo": "removes the serve and counter active boolean\n\nsets choosenPotion to 0\n\nmakes the potion_counter have nothing",
+	"x": -576,
+	"y": 3288,
 	"width": 168,
 	"height": 48,
 	"shortcutList": []
@@ -75236,6 +75786,28 @@
 	"useInput": false,
 	"inputConditionList": [  ],
 	"linkConditionList": [ {
+	"id": 2,
+	"ignored": false,
+	"type": 17,
+	"condAnd": true,
+	"notFlag": false,
+	"switchVariableChanged": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2035,
+	"switchCondition": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"compareVariableOperator": 0,
+	"compareValueType": 0,
+	"compareValue": 0.000000,
+	"compareVariableObjectId": -1,
+	"compareVariableQualifierId": -1,
+	"compareVariableId": -1
+}
+}, {
 	"id": 1,
 	"ignored": false,
 	"type": 15,
@@ -80200,7 +80772,7 @@
 	"actionLinkIdList": [  ]
 }, {
 	"id": 212,
-	"typeIdPair": [ [0, 176, -1], [0, 177, -1] ],
+	"typeIdPair": [ [0, 176, -1], [0, 301, -1] ],
 	"linkType": 0,
 	"priority": 0,
 	"a": 255,
@@ -80266,8 +80838,8 @@
 }
 } ],
 	"memo": "serve is on chosen potion is nothing",
-	"coordList": [ [ 3638, 3119 ], [ 3458, 3216 ] ],
-	"endPointFactor": [ -1, 526 ],
+	"coordList": [ [ 3600, 3118 ], [ 3527, 3145 ] ],
+	"endPointFactor": [ -1, 1380 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
@@ -80665,8 +81237,8 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 3453, 3551 ], [ 3624, 3805 ] ],
-	"endPointFactor": [ 2198, 2892 ],
+	"coordList": [ [ 3453, 3551 ], [ 3668, 3768 ] ],
+	"endPointFactor": [ 2198, 236 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
@@ -82950,7 +83522,7 @@
 	"actionLinkIdList": [  ]
 }, {
 	"id": 255,
-	"typeIdPair": [ [0, 203, -1], [0, 206, -1] ],
+	"typeIdPair": [ [0, 203, -1], [0, 139, -1] ],
 	"linkType": 0,
 	"priority": 0,
 	"a": 255,
@@ -83016,8 +83588,8 @@
 }
 } ],
 	"memo": "serve is on chosen potion is health potion",
-	"coordList": [ [ 1985, 4439 ], [ 1807, 4536 ] ],
-	"endPointFactor": [ -1, -1 ],
+	"coordList": [ [ 1996, 4439 ], [ 1775, 4560 ] ],
+	"endPointFactor": [ -1, 514 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
@@ -83103,8 +83675,8 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 1771, 4583 ], [ 1977, 5280 ] ],
-	"endPointFactor": [ -1, 52 ],
+	"coordList": [ [ 1776, 4751 ], [ 2060, 5280 ] ],
+	"endPointFactor": [ -1, 495 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
@@ -84117,7 +84689,7 @@
 	"actionLinkIdList": [  ]
 }, {
 	"id": 268,
-	"typeIdPair": [ [0, 220, -1], [0, 226, -1] ],
+	"typeIdPair": [ [0, 220, -1], [0, 302, -1] ],
 	"linkType": 0,
 	"priority": 0,
 	"a": 255,
@@ -84183,8 +84755,8 @@
 }
 } ],
 	"memo": "serve is on chosen potion is nothing",
-	"coordList": [ [ -163, 3095 ], [ -552, 3312 ] ],
-	"endPointFactor": [ -1, 512 ],
+	"coordList": [ [ -145, 3095 ], [ -481, 3288 ] ],
+	"endPointFactor": [ -1, 507 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
@@ -84993,7 +85565,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -556, 3359 ], [ -166, 4536 ] ],
+	"coordList": [ [ -554, 3551 ], [ -166, 4536 ] ],
 	"endPointFactor": [ -1, 139 ],
 	"visible": true,
 	"num": 0,
@@ -88230,7 +88802,7 @@
 	"actionLinkIdList": [  ]
 }, {
 	"id": 328,
-	"typeIdPair": [ [0, 271, -1], [0, 274, -1] ],
+	"typeIdPair": [ [0, 271, -1], [0, 116, -1] ],
 	"linkType": 0,
 	"priority": 0,
 	"a": 255,
@@ -88296,8 +88868,8 @@
 }
 } ],
 	"memo": "serve is on chosen potion is health potion",
-	"coordList": [ [ 2631, 4535 ], [ 2592, 4608 ] ],
-	"endPointFactor": [ -1, -1 ],
+	"coordList": [ [ 2639, 4535 ], [ 2592, 4608 ] ],
+	"endPointFactor": [ -1, 647 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
@@ -88893,8 +89465,8 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 2581, 4775 ], [ 2671, 5304 ] ],
-	"endPointFactor": [ 2243, -1 ],
+	"coordList": [ [ 2581, 4919 ], [ 2682, 5304 ] ],
+	"endPointFactor": [ 2243, 487 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
@@ -88980,7 +89552,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 2580, 4655 ], [ 2580, 4728 ] ],
+	"coordList": [ [ 2580, 4751 ], [ 2580, 4872 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -90283,6 +90855,128 @@
 	"memo": "",
 	"coordList": [ [ -5148, 983 ], [ -5148, 1008 ] ],
 	"endPointFactor": [ -1, -1 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+}, {
+	"id": 144,
+	"typeIdPair": [ [0, 27, -1], [0, 20, 0] ],
+	"linkType": 0,
+	"priority": 2,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 1,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 17,
+	"condAnd": true,
+	"notFlag": false,
+	"switchVariableChanged": {
+	"swtch": true,
+	"switchObjectId": 0,
+	"switchQualifierId": -1,
+	"switchId": 2009,
+	"switchCondition": 0,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"compareVariableOperator": 0,
+	"compareValueType": 0,
+	"compareValue": 0.000000,
+	"compareVariableObjectId": -1,
+	"compareVariableQualifierId": -1,
+	"compareVariableId": -1
+}
+} ],
+	"memo": "",
+	"coordList": [ [ 229, 648 ], [ 246, 527 ] ],
+	"endPointFactor": [ 6, -1 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+}, {
+	"id": 164,
+	"typeIdPair": [ [0, 116, -1], [0, 274, -1] ],
+	"linkType": 0,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 3,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [  ],
+	"memo": "",
+	"coordList": [ [ 2560, 4655 ], [ 2600, 4704 ] ],
+	"endPointFactor": [ -1, 558 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+}, {
+	"id": 363,
+	"typeIdPair": [ [0, 139, -1], [0, 206, -1] ],
+	"linkType": 0,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 3,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [  ],
+	"memo": "",
+	"coordList": [ [ 1763, 4607 ], [ 1762, 4704 ] ],
+	"endPointFactor": [ -1, 443 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+}, {
+	"id": 364,
+	"typeIdPair": [ [0, 301, -1], [0, 177, -1] ],
+	"linkType": 0,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 3,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [  ],
+	"memo": "",
+	"coordList": [ [ 3437, 3167 ], [ 3405, 3216 ] ],
+	"endPointFactor": [ 2283, 246 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+}, {
+	"id": 365,
+	"typeIdPair": [ [0, 302, -1], [0, 226, -1] ],
+	"linkType": 0,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 3,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [  ],
+	"memo": "",
+	"coordList": [ [ -489, 3335 ], [ -556, 3504 ] ],
+	"endPointFactor": [ 2239, -1 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
@@ -129619,7 +130313,7 @@
 	"y": -144,
 	"width": 696,
 	"height": 48,
-	"shortcutList": [{"x":-192.000000,"y":336.000000,"width":168.000000,"height":48.000000}, {"x":72.000000,"y":336.000000,"width":168.000000,"height":48.000000}]
+	"shortcutList": [{"x":-192.000000,"y":384.000000,"width":168.000000,"height":48.000000}, {"x":72.000000,"y":384.000000,"width":168.000000,"height":48.000000}]
 }, {
 	"id": 2,
 	"name": "redpowder slot1",
@@ -129794,7 +130488,7 @@
 } ],
 	"memo": "",
 	"x": -192,
-	"y": 240,
+	"y": 264,
 	"width": 168,
 	"height": 48,
 	"shortcutList": []
@@ -129972,7 +130666,7 @@
 } ],
 	"memo": "",
 	"x": 72,
-	"y": 240,
+	"y": 264,
 	"width": 168,
 	"height": 48,
 	"shortcutList": []
@@ -130279,7 +130973,7 @@
 	"r": 0,
 	"g": 0,
 	"b": 0,
-	"changeConditionType": 1,
+	"changeConditionType": 0,
 	"noInput": false,
 	"useInput": true,
 	"inputConditionList": [ {
@@ -130292,9 +130986,31 @@
 	"condAnd": true,
 	"acceptFrameCount": 1
 } ],
-	"linkConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 17,
+	"condAnd": true,
+	"notFlag": false,
+	"switchVariableChanged": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2007,
+	"switchCondition": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"compareVariableOperator": 0,
+	"compareValueType": 0,
+	"compareValue": 0.000000,
+	"compareVariableObjectId": -1,
+	"compareVariableQualifierId": -1,
+	"compareVariableId": -1
+}
+} ],
 	"memo": "",
-	"coordList": [ [ -168, 215 ], [ -168, 240 ] ],
+	"coordList": [ [ -168, 215 ], [ -168, 264 ] ],
 	"endPointFactor": [ 2600, 128 ],
 	"visible": true,
 	"num": 0,
@@ -130314,7 +131030,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ -168, 287 ], [ -168, 336 ] ],
+	"coordList": [ [ -168, 311 ], [ -168, 384 ] ],
 	"endPointFactor": [ 2572, 128 ],
 	"visible": true,
 	"num": 0,
@@ -130396,7 +131112,7 @@
 	"r": 0,
 	"g": 0,
 	"b": 0,
-	"changeConditionType": 1,
+	"changeConditionType": 0,
 	"noInput": false,
 	"useInput": true,
 	"inputConditionList": [ {
@@ -130409,9 +131125,31 @@
 	"condAnd": true,
 	"acceptFrameCount": 1
 } ],
-	"linkConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 17,
+	"condAnd": true,
+	"notFlag": false,
+	"switchVariableChanged": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2012,
+	"switchCondition": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"compareVariableOperator": 0,
+	"compareValueType": 0,
+	"compareValue": 0.000000,
+	"compareVariableObjectId": -1,
+	"compareVariableQualifierId": -1,
+	"compareVariableId": -1
+}
+} ],
 	"memo": "",
-	"coordList": [ [ 98, 215 ], [ 98, 240 ] ],
+	"coordList": [ [ 98, 215 ], [ 98, 264 ] ],
 	"endPointFactor": [ 2588, 144 ],
 	"visible": true,
 	"num": 0,
@@ -130431,7 +131169,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 97, 287 ], [ 97, 336 ] ],
+	"coordList": [ [ 97, 311 ], [ 97, 384 ] ],
 	"endPointFactor": [ 2561, 139 ],
 	"visible": true,
 	"num": 0,
@@ -131333,7 +132071,7 @@
 	"y": -144,
 	"width": 696,
 	"height": 48,
-	"shortcutList": [{"x":-192.000000,"y":336.000000,"width":168.000000,"height":48.000000}, {"x":72.000000,"y":336.000000,"width":168.000000,"height":48.000000}]
+	"shortcutList": [{"x":-192.000000,"y":384.000000,"width":168.000000,"height":48.000000}, {"x":72.000000,"y":336.000000,"width":168.000000,"height":48.000000}]
 }, {
 	"id": 2,
 	"name": "redpowder slot 2",
@@ -131508,7 +132246,7 @@
 } ],
 	"memo": "",
 	"x": -192,
-	"y": 240,
+	"y": 288,
 	"width": 168,
 	"height": 48,
 	"shortcutList": []
@@ -131993,7 +132731,7 @@
 	"r": 0,
 	"g": 0,
 	"b": 0,
-	"changeConditionType": 1,
+	"changeConditionType": 0,
 	"noInput": false,
 	"useInput": true,
 	"inputConditionList": [ {
@@ -132006,9 +132744,31 @@
 	"condAnd": true,
 	"acceptFrameCount": 1
 } ],
-	"linkConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 17,
+	"condAnd": true,
+	"notFlag": false,
+	"switchVariableChanged": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2007,
+	"switchCondition": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"compareVariableOperator": 0,
+	"compareValueType": 0,
+	"compareValue": 0.000000,
+	"compareVariableObjectId": -1,
+	"compareVariableQualifierId": -1,
+	"compareVariableId": -1
+}
+} ],
 	"memo": "",
-	"coordList": [ [ -168, 215 ], [ -168, 240 ] ],
+	"coordList": [ [ -168, 215 ], [ -168, 288 ] ],
 	"endPointFactor": [ 2600, 128 ],
 	"visible": true,
 	"num": 0,
@@ -132028,7 +132788,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ -168, 287 ], [ -168, 336 ] ],
+	"coordList": [ [ -168, 335 ], [ -168, 384 ] ],
 	"endPointFactor": [ 2572, 128 ],
 	"visible": true,
 	"num": 0,
@@ -132110,7 +132870,7 @@
 	"r": 0,
 	"g": 0,
 	"b": 0,
-	"changeConditionType": 1,
+	"changeConditionType": 0,
 	"noInput": false,
 	"useInput": true,
 	"inputConditionList": [ {
@@ -132123,7 +132883,29 @@
 	"condAnd": true,
 	"acceptFrameCount": 1
 } ],
-	"linkConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 17,
+	"condAnd": true,
+	"notFlag": false,
+	"switchVariableChanged": {
+	"swtch": true,
+	"switchObjectId": 1,
+	"switchQualifierId": -1,
+	"switchId": 2012,
+	"switchCondition": 1,
+	"variableObjectId": -1,
+	"variableQualifierId": -1,
+	"variableId": -1,
+	"compareVariableOperator": 0,
+	"compareValueType": 0,
+	"compareValue": 0.000000,
+	"compareVariableObjectId": -1,
+	"compareVariableQualifierId": -1,
+	"compareVariableId": -1
+}
+} ],
 	"memo": "",
 	"coordList": [ [ 98, 215 ], [ 98, 240 ] ],
 	"endPointFactor": [ 2588, 144 ],
