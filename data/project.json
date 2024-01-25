@@ -1,11 +1,10 @@
 {
-	"version": "1.0.6",
+	"version": "1.0.5",
 	"gameIcon": "",
 	"gameIconSrcFilename": "",
 	"gameType": 1,
 	"playerCount": 1,
 	"mode30Fps": false,
-	"fix60FpsMode": false,
 	"tileWidth": 64,
 	"tileHeight": 64,
 	"screenWidth": 640,
@@ -21,8 +20,7 @@
 	"nxSoftResetKeyConfig": 0,
 	"nxReturnToLauncherKeyConfig": 0,
 	"nxMenuBarVisibleKeyConfig": 0,
-	"nxSupportForSingleJoyCon": true,
-	"nxPlayerVersion": "1.0.6",
+	"nxPlayerVersion": "1.0.5",
 	"gameVersion": "1.0",
 	"magnifyWindow":true,
 	"windowMagnification":2,
@@ -2291,7 +2289,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "3": 4, "6": 6, "7": 7, "8": 3, "10": 8, "11": 9, "1": 2 },
+					"objectSingleIdHash": { "7": 7, "6": 6, "11": 9, "10": 8, "8": 3, "3": 4, "1": 2 },
 			"folder": false
 				},
 				{
@@ -8915,7 +8913,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "19": 18, "36": 20, "21": 19, "55": 27, "22": 22, "45": 23, "12": 3, "48": 24, "14": 5, "16": 4, "1": 2 },
+					"objectSingleIdHash": { "22": 22, "48": 24, "21": 19, "55": 27, "36": 20, "14": 5, "12": 3, "19": 18, "45": 23, "1": 2, "16": 4 },
 			"folder": false
 				},
 				{
@@ -8988,7 +8986,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 24,
+			"priority": 25,
 			"dispPriority": 10,
 
 	"objectId": 1,
@@ -9119,7 +9117,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 20,
+			"priority": 23,
 			"dispPriority": 0,
 
 	"objectId": 20,
@@ -9360,15 +9358,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 21,
+			"priority": 11,
 			"dispPriority": 0,
 
 	"objectId": 38,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 97.5,
-	"y": 330,
+	"x": 395,
+	"y": 141,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -9565,7 +9563,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 4,
+					"priority": 5,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -9670,7 +9668,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 5,
+					"priority": 6,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -9775,7 +9773,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 6,
+					"priority": 7,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -9880,7 +9878,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 7,
+					"priority": 8,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -9985,7 +9983,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 8,
+					"priority": 9,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -10090,7 +10088,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 9,
+					"priority": 10,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -10195,7 +10193,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 10,
+					"priority": 13,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -10300,7 +10298,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 11,
+					"priority": 14,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -10405,7 +10403,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 12,
+					"priority": 15,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -10510,7 +10508,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 13,
+					"priority": 16,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -10615,7 +10613,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 14,
+					"priority": 17,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -10720,7 +10718,7 @@
 					"layerIndex": 0,
 					"locked": false,
 					"visible": true,
-					"priority": 15,
+					"priority": 18,
 					"dispPriority": 0,
 
 	"objectId": 55,
@@ -10827,15 +10825,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 17,
+			"priority": 22,
 			"dispPriority": 0,
 
 	"objectId": 41,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 327,
-	"y": 319.5,
+	"x": 430,
+	"y": 325,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -11094,15 +11092,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 18,
+			"priority": 21,
 			"dispPriority": 0,
 
 	"objectId": 42,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 412,
-	"y": 321,
+	"x": 535,
+	"y": 325,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -11309,15 +11307,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 16,
+			"priority": 20,
 			"dispPriority": 0,
 
 	"objectId": 44,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 369.5,
-	"y": 253.5,
+	"x": 480,
+	"y": 265,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -11531,8 +11529,8 @@
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 471,
-	"y": 323,
+	"x": 603,
+	"y": 253,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -11913,15 +11911,15 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 22,
+			"priority": 12,
 			"dispPriority": 0,
 
 	"objectId": 52,
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 180.000000,
-	"x": 162,
-	"y": 335.2,
+	"x": 562,
+	"y": 145,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -12160,44 +12158,13 @@
 			"folder": false
 		},
 							{
-			"id": 1,
-			"name": "Camera",
-			"partType": 2,
-			"layerIndex": -1,
-			"locked": false,
-			"visible": true,
-			"priority": 23,
-			"dispPriority": 0,
-
-	"othersType": 0,
-	"camera": {
-	"initialPlayerPosition": false,
-	"x": 0,
-	"y": 0,
-	"width": 640,
-	"height": 360,
-	"followTargetType": 0,
-	"objectId": -1,
-	"courseScenePartId": -1,
-	"startPointId": -1,
-	"scrollToShowAllPlayers": false,
-	"scaleToShowAllPlayers": false,
-	"maxScaling": 100.000000,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1
-}
-,
-			"folder": false
-		},
-							{
 			"id": 5,
 			"name": "tutorial_crafting",
 			"partType": 0,
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 25,
+			"priority": 4,
 			"dispPriority": 0,
 
 	"objectId": 64,
@@ -12551,9 +12518,40 @@
 	"disappearActionCommandList": [  ]
 ,
 			"folder": false
+		},
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 24,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
+,
+			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "20": 4, "21": 3, "38": 17, "55": 27, "64": 5, "41": 18, "42": 19, "43": 21, "44": 20, "45": 22, "1": 2, "52": 23 },
+					"objectSingleIdHash": { "21": 3, "55": 27, "20": 4, "38": 17, "64": 5, "52": 23, "43": 21, "42": 19, "41": 18, "45": 22, "44": 20, "1": 2 },
 			"folder": false
 				},
 				{
@@ -14999,7 +14997,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "61": 15, "49": 2, "51": 14, "1": 13 },
+					"objectSingleIdHash": { "61": 15, "51": 14, "1": 13, "49": 2 },
 			"folder": false
 				},
 				{
@@ -16382,7 +16380,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "38": 5, "22": 8, "59": 3, "60": 4, "1": 7, "52": 6 },
+					"objectSingleIdHash": { "22": 8, "38": 5, "52": 6, "59": 3, "60": 4, "1": 7 },
 			"folder": false
 				},
 				{
@@ -19294,7 +19292,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "20": 15, "55": 2, "12": 16, "16": 21, "1": 14 },
+							"objectSingleIdHash": { "55": 2, "20": 15, "12": 16, "1": 14, "16": 21 },
 					"folder": false
 						},
 				{
@@ -24777,7 +24775,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "19": 18, "36": 20, "21": 19, "22": 22, "45": 23, "12": 3, "48": 24, "14": 5, "16": 4, "1": 2, "18": 6 },
+							"objectSingleIdHash": { "22": 22, "48": 24, "21": 19, "36": 20, "14": 5, "12": 3, "19": 18, "18": 6, "45": 23, "1": 2, "16": 4 },
 					"folder": false
 						},
 				{
@@ -28692,7 +28690,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "20": 4, "21": 3, "41": 18, "42": 19, "43": 21, "44": 20, "45": 22, "32": 14, "33": 15, "34": 16, "38": 17, "1": 2, "24": 6, "25": 7, "26": 8, "27": 9, "28": 10, "29": 11, "30": 12, "31": 13, "52": 23, "18": 5 },
+							"objectSingleIdHash": { "1": 2, "45": 22, "44": 20, "34": 16, "33": 15, "32": 14, "27": 9, "26": 8, "38": 17, "25": 7, "24": 6, "31": 13, "30": 12, "29": 11, "28": 10, "18": 5, "21": 3, "20": 4, "52": 23, "43": 21, "42": 19, "41": 18 },
 					"folder": false
 						}
 	]
@@ -32872,7 +32870,7 @@
 		},
 				{
 			"id": 1,
-			"name": "Initialize Resources",
+			"name": "Reset",
 			"initialValue": false,
 			"toBeSaved": true,
 			"memo": "",
@@ -103638,7 +103636,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -2531, 1775 ], [ -2532, 1872 ] ],
+	"coordList": [ [ -2531, 1775 ], [ -2531, 1872 ] ],
 	"endPointFactor": [ 2245, -1 ],
 	"visible": true,
 	"num": 0,
@@ -113921,7 +113919,7 @@
 }
 } ],
 	"memo": "serve is on chosen potion is health potion",
-	"coordList": [ [ -5245, 479 ], [ -5244, 528 ] ],
+	"coordList": [ [ -5244, 479 ], [ -5244, 528 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -114301,7 +114299,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ -5220, 575 ], [ -5171, 624 ] ],
+	"coordList": [ [ -5219, 575 ], [ -5171, 624 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -114321,7 +114319,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ -5057, 575 ], [ -5118, 624 ] ],
+	"coordList": [ [ -5058, 575 ], [ -5118, 624 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -121502,7 +121500,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 6792, 1823 ], [ 6621, 1920 ] ],
+	"coordList": [ [ 6792, 1823 ], [ 6628, 1920 ] ],
 	"endPointFactor": [ 2313, -1 ],
 	"visible": true,
 	"num": 0,
@@ -121649,7 +121647,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 6352, 2063 ], [ 6413, 2304 ] ],
+	"coordList": [ [ 6353, 2063 ], [ 6413, 2304 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -121756,7 +121754,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 6026, 1823 ], [ 6343, 2304 ] ],
+	"coordList": [ [ 6027, 1823 ], [ 6343, 2304 ] ],
 	"endPointFactor": [ -1, 42 ],
 	"visible": true,
 	"num": 0,
@@ -124424,7 +124422,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -5976, 733 ], [ -6048, 726 ] ],
+	"coordList": [ [ -5976, 734 ], [ -6048, 727 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -127186,7 +127184,7 @@
 }
 } ],
 	"memo": "serve is on chosen potion is nothing",
-	"coordList": [ [ -6264, -707 ], [ -6042, -936 ] ],
+	"coordList": [ [ -6264, -707 ], [ -6036, -936 ] ],
 	"endPointFactor": [ 1126, -1 ],
 	"visible": true,
 	"num": 0,
@@ -127899,7 +127897,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -6768, -194 ], [ -6816, -193 ] ],
+	"coordList": [ [ -6768, -192 ], [ -6816, -192 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -129283,7 +129281,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 7194, 695 ], [ 7194, 840 ] ],
+	"coordList": [ [ 7184, 695 ], [ 7193, 840 ] ],
 	"endPointFactor": [ 2013, 482 ],
 	"visible": true,
 	"num": 0,
@@ -129370,7 +129368,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 7198, 887 ], [ 7294, 1056 ] ],
+	"coordList": [ [ 7201, 887 ], [ 7294, 1056 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -129530,7 +129528,7 @@
 }
 } ],
 	"memo": "serve is on chosen potion is nothing",
-	"coordList": [ [ 7271, 1295 ], [ 7076, 1440 ] ],
+	"coordList": [ [ 7274, 1295 ], [ 7076, 1440 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -129603,7 +129601,7 @@
 }
 } ],
 	"memo": "serve is on chosen potion is health potion",
-	"coordList": [ [ 7313, 1295 ], [ 7370, 1440 ] ],
+	"coordList": [ [ 7316, 1295 ], [ 7370, 1440 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -129676,7 +129674,7 @@
 }
 } ],
 	"memo": "serve is on chosen potion is poison potion",
-	"coordList": [ [ 7340, 1295 ], [ 7559, 1440 ] ],
+	"coordList": [ [ 7343, 1295 ], [ 7559, 1440 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -129805,7 +129803,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 7375, 1655 ], [ 7358, 1800 ] ],
+	"coordList": [ [ 7376, 1655 ], [ 7358, 1800 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -129912,7 +129910,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 7381, 1847 ], [ 7452, 1920 ] ],
+	"coordList": [ [ 7379, 1847 ], [ 7451, 1920 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -129932,7 +129930,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 7474, 1967 ], [ 7475, 2064 ] ],
+	"coordList": [ [ 7475, 1967 ], [ 7475, 2064 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -130166,7 +130164,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 7599, 1487 ], [ 7637, 1608 ] ],
+	"coordList": [ [ 7602, 1487 ], [ 7638, 1608 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -130186,7 +130184,7 @@
 	"inputConditionList": [  ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 7610, 1847 ], [ 7763, 1944 ] ],
+	"coordList": [ [ 7667, 1847 ], [ 7763, 1944 ] ],
 	"endPointFactor": [ -1, 317 ],
 	"visible": true,
 	"num": 0,
@@ -183142,8 +183140,8 @@
 	"turnSpeed": 100,
 	"objCommandList": [  ],
 	"memo": "",
-	"x": -312,
-	"y": 264,
+	"x": 384,
+	"y": 168,
 	"width": 168,
 	"height": 48,
 	"shortcutList": []
