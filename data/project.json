@@ -1,10 +1,11 @@
 {
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"gameIcon": "",
 	"gameIconSrcFilename": "",
 	"gameType": 1,
 	"playerCount": 1,
 	"mode30Fps": false,
+	"fix60FpsMode": false,
 	"tileWidth": 64,
 	"tileHeight": 64,
 	"screenWidth": 640,
@@ -20,7 +21,8 @@
 	"nxSoftResetKeyConfig": 0,
 	"nxReturnToLauncherKeyConfig": 0,
 	"nxMenuBarVisibleKeyConfig": 0,
-	"nxPlayerVersion": "1.0.5",
+	"nxSupportForSingleJoyCon": true,
+	"nxPlayerVersion": "1.0.6",
 	"gameVersion": "1.0",
 	"magnifyWindow":true,
 	"windowMagnification":2,
@@ -2302,7 +2304,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "10": 8, "11": 9, "8": 3, "6": 6, "7": 7, "3": 4, "1": 2 },
+					"objectSingleIdHash": { "11": 9, "10": 8, "1": 2, "3": 4, "7": 7, "6": 6, "8": 3 },
 			"folder": false
 				},
 				{
@@ -8952,7 +8954,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "45": 23, "22": 22, "21": 19, "36": 20, "55": 27, "19": 18, "1": 2, "16": 4, "14": 5, "48": 24, "12": 3 },
+					"objectSingleIdHash": { "12": 3, "45": 23, "14": 5, "1": 2, "16": 4, "19": 18, "48": 24, "21": 19, "22": 22, "36": 20, "55": 27 },
 			"folder": false
 				},
 				{
@@ -12590,7 +12592,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "44": 20, "45": 22, "42": 19, "43": 21, "41": 18, "38": 17, "20": 4, "21": 3, "55": 27, "52": 23, "1": 2, "64": 5 },
+					"objectSingleIdHash": { "41": 18, "43": 21, "42": 19, "64": 5, "45": 22, "44": 20, "1": 2, "21": 3, "20": 4, "52": 23, "55": 27, "38": 17 },
 			"folder": false
 				},
 				{
@@ -15036,7 +15038,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "61": 15, "1": 13, "51": 14, "49": 2 },
+					"objectSingleIdHash": { "61": 15, "1": 13, "49": 2, "51": 14 },
 			"folder": false
 				},
 				{
@@ -16493,7 +16495,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "60": 4, "59": 3, "22": 8, "38": 5, "52": 6, "1": 7, "66": 9 },
+					"objectSingleIdHash": { "59": 3, "60": 4, "66": 9, "1": 7, "22": 8, "52": 6, "38": 5 },
 			"folder": false
 				},
 				{
@@ -19405,7 +19407,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "20": 15, "55": 2, "1": 14, "16": 21, "12": 16 },
+							"objectSingleIdHash": { "12": 16, "1": 14, "16": 21, "20": 15, "55": 2 },
 					"folder": false
 						},
 				{
@@ -24914,7 +24916,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "45": 23, "22": 22, "21": 19, "36": 20, "18": 6, "19": 18, "1": 2, "16": 4, "14": 5, "48": 24, "12": 3 },
+							"objectSingleIdHash": { "12": 3, "45": 23, "14": 5, "1": 2, "16": 4, "19": 18, "18": 6, "48": 24, "21": 19, "22": 22, "36": 20 },
 					"folder": false
 						},
 				{
@@ -28829,7 +28831,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "44": 20, "45": 22, "42": 19, "43": 21, "41": 18, "38": 17, "1": 2, "34": 16, "32": 14, "33": 15, "30": 12, "31": 13, "28": 10, "29": 11, "26": 8, "27": 9, "24": 6, "25": 7, "20": 4, "21": 3, "18": 5, "52": 23 },
+							"objectSingleIdHash": { "41": 18, "43": 21, "1": 2, "42": 19, "45": 22, "44": 20, "33": 15, "32": 14, "34": 16, "25": 7, "24": 6, "27": 9, "26": 8, "29": 11, "38": 17, "28": 10, "31": 13, "30": 12, "18": 5, "21": 3, "20": 4, "52": 23 },
 					"folder": false
 						}
 	]
@@ -34241,7 +34243,7 @@
 		},
 				{
 			"id": 1,
-			"name": "Reset",
+			"name": "Initialize Resources",
 			"initialValue": false,
 			"toBeSaved": true,
 			"memo": "",
