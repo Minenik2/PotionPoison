@@ -1,10 +1,11 @@
 {
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"gameIcon": "",
 	"gameIconSrcFilename": "",
 	"gameType": 1,
 	"playerCount": 1,
 	"mode30Fps": false,
+	"fix60FpsMode": false,
 	"tileWidth": 64,
 	"tileHeight": 64,
 	"screenWidth": 640,
@@ -20,7 +21,8 @@
 	"nxSoftResetKeyConfig": 0,
 	"nxReturnToLauncherKeyConfig": 0,
 	"nxMenuBarVisibleKeyConfig": 0,
-	"nxPlayerVersion": "1.0.5",
+	"nxSupportForSingleJoyCon": true,
+	"nxPlayerVersion": "1.0.6",
 	"gameVersion": "1.0",
 	"magnifyWindow":true,
 	"windowMagnification":2,
@@ -2302,7 +2304,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "7": 7, "6": 6, "3": 4, "1": 2, "11": 9, "10": 8, "8": 3 },
+					"objectSingleIdHash": { "1": 2, "3": 4, "8": 3, "10": 8, "11": 9, "6": 6, "7": 7 },
 			"folder": false
 				},
 				{
@@ -8952,7 +8954,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "22": 22, "21": 19, "55": 27, "19": 18, "36": 20, "1": 2, "16": 4, "48": 24, "14": 5, "12": 3, "45": 23 },
+					"objectSingleIdHash": { "1": 2, "16": 4, "19": 18, "45": 23, "12": 3, "14": 5, "36": 20, "21": 19, "55": 27, "22": 22, "48": 24 },
 			"folder": false
 				},
 				{
@@ -12590,7 +12592,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "41": 18, "21": 3, "55": 27, "20": 4, "38": 17, "52": 23, "1": 2, "64": 5, "45": 22, "44": 20, "43": 21, "42": 19 },
+					"objectSingleIdHash": { "1": 2, "44": 20, "45": 22, "64": 5, "41": 18, "42": 19, "43": 21, "52": 23, "38": 17, "20": 4, "21": 3, "55": 27 },
 			"folder": false
 				},
 				{
@@ -15036,7 +15038,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "51": 14, "1": 13, "49": 2, "61": 15 },
+					"objectSingleIdHash": { "49": 2, "1": 13, "51": 14, "61": 15 },
 			"folder": false
 				},
 				{
@@ -16388,37 +16390,6 @@
 			"folder": false
 		},
 							{
-			"id": 1,
-			"name": "Camera",
-			"partType": 2,
-			"layerIndex": -1,
-			"locked": false,
-			"visible": true,
-			"priority": 8,
-			"dispPriority": 0,
-
-	"othersType": 0,
-	"camera": {
-	"initialPlayerPosition": false,
-	"x": 0,
-	"y": 0,
-	"width": 640,
-	"height": 360,
-	"followTargetType": 0,
-	"objectId": -1,
-	"courseScenePartId": -1,
-	"startPointId": -1,
-	"scrollToShowAllPlayers": false,
-	"scaleToShowAllPlayers": false,
-	"maxScaling": 100.000000,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1
-}
-,
-			"folder": false
-		},
-							{
 			"id": 9,
 			"name": "tutorial_selling",
 			"partType": 0,
@@ -16491,9 +16462,40 @@
 	"disappearActionCommandList": [  ]
 ,
 			"folder": false
+		},
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 8,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
+,
+			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "22": 8, "38": 5, "52": 6, "1": 7, "66": 9, "60": 4, "59": 3 },
+					"objectSingleIdHash": { "1": 7, "60": 4, "66": 9, "59": 3, "52": 6, "38": 5, "22": 8 },
 			"folder": false
 				},
 				{
@@ -19405,7 +19407,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "55": 2, "20": 15, "1": 14, "16": 21, "12": 16 },
+							"objectSingleIdHash": { "1": 14, "16": 21, "12": 16, "20": 15, "55": 2 },
 					"folder": false
 						},
 				{
@@ -24914,7 +24916,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "22": 22, "21": 19, "19": 18, "18": 6, "36": 20, "1": 2, "16": 4, "48": 24, "14": 5, "12": 3, "45": 23 },
+							"objectSingleIdHash": { "1": 2, "16": 4, "18": 6, "19": 18, "45": 23, "12": 3, "14": 5, "36": 20, "21": 19, "22": 22, "48": 24 },
 					"folder": false
 						},
 				{
@@ -28829,7 +28831,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "45": 22, "44": 20, "43": 21, "21": 3, "42": 19, "41": 18, "20": 4, "18": 5, "31": 13, "52": 23, "30": 12, "29": 11, "28": 10, "27": 9, "26": 8, "25": 7, "24": 6, "38": 17, "1": 2, "34": 16, "33": 15, "32": 14 },
+							"objectSingleIdHash": { "28": 10, "29": 11, "30": 12, "31": 13, "52": 23, "24": 6, "25": 7, "26": 8, "27": 9, "20": 4, "21": 3, "44": 20, "45": 22, "18": 5, "41": 18, "42": 19, "43": 21, "38": 17, "32": 14, "33": 15, "34": 16, "1": 2 },
 					"folder": false
 						}
 	]
@@ -28898,37 +28900,6 @@
 					},
 					"scenePartList": [
 							{
-			"id": 1,
-			"name": "Camera",
-			"partType": 2,
-			"layerIndex": -1,
-			"locked": false,
-			"visible": true,
-			"priority": 1,
-			"dispPriority": 0,
-
-	"othersType": 0,
-	"camera": {
-	"initialPlayerPosition": false,
-	"x": 0,
-	"y": 0,
-	"width": 640,
-	"height": 360,
-	"followTargetType": 0,
-	"objectId": -1,
-	"courseScenePartId": -1,
-	"startPointId": -1,
-	"scrollToShowAllPlayers": false,
-	"scaleToShowAllPlayers": false,
-	"maxScaling": 100.000000,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1
-}
-,
-			"folder": false
-		},
-							{
 			"id": 2,
 			"name": "dialogueEnding",
 			"partType": 0,
@@ -28975,6 +28946,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 19,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": -30
 }
 } ], "2": [ {
 	"id": 1,
@@ -29075,6 +29067,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 19,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": -30
+}
 } ], "4": [ {
 	"id": 2,
 	"commandType": 26,
@@ -29148,6 +29161,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 19,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": -30
+}
 } ], "5": [ {
 	"id": 1,
 	"commandType": 31,
@@ -29173,6 +29207,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 19,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": -30
 }
 } ], "6": [ {
 	"id": 1,
@@ -29226,6 +29281,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 19,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": -30
+}
 } ], "8": [ {
 	"id": 1,
 	"commandType": 31,
@@ -29251,6 +29327,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
 }
 } ], "9": [ {
 	"id": 1,
@@ -29278,6 +29375,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
 } ], "10": [ {
 	"id": 1,
 	"commandType": 31,
@@ -29303,6 +29421,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
 }
 } ], "11": [ {
 	"id": 1,
@@ -29330,6 +29469,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
 } ], "12": [ {
 	"id": 1,
 	"commandType": 31,
@@ -29355,6 +29515,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
 }
 } ], "13": [ {
 	"id": 1,
@@ -29382,7 +29563,112 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
-} ], "14": [  ], "15": [  ], "16": [  ], "17": [  ], "18": [  ], "19": [  ], "20": [  ], "21": [  ], "22": [  ], "23": [  ], "24": [  ], "25": [  ], "26": [ {
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
+} ], "14": [  ], "15": [  ], "16": [  ], "17": [  ], "18": [  ], "19": [  ], "20": [  ], "21": [  ], "22": [ {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
+} ], "23": [ {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
+} ], "24": [ {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
+} ], "25": [ {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
+} ], "26": [ {
 	"id": 2,
 	"commandType": 26,
 	"ignored": false,
@@ -29429,6 +29715,27 @@
 	"priority": false,
 	"priorityType": 1
 }
+}, {
+	"id": 4,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
 } ], "27": [ {
 	"id": 1,
 	"commandType": 31,
@@ -29457,6 +29764,37 @@
 }
 } ] },
 	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 1,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 640,
+	"height": 360,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
 ,
 			"folder": false
 		}
@@ -33905,7 +34243,7 @@
 		},
 				{
 			"id": 1,
-			"name": "Reset",
+			"name": "Initialize Resources",
 			"initialValue": false,
 			"toBeSaved": true,
 			"memo": "",
@@ -128280,7 +128618,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -6023, -984 ], [ -6264, -1460 ] ],
+	"coordList": [ [ -6024, -984 ], [ -6264, -1460 ] ],
 	"endPointFactor": [ -1, 1423 ],
 	"visible": true,
 	"num": 0,
@@ -131496,7 +131834,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -504, 1201 ], [ -632, 1392 ] ],
+	"coordList": [ [ -504, 1201 ], [ -645, 1392 ] ],
 	"endPointFactor": [ 3119, -1 ],
 	"visible": true,
 	"num": 0,
@@ -180957,7 +181295,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -57, 359 ], [ -159, 480 ] ],
+	"coordList": [ [ -56, 359 ], [ -159, 480 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -188985,7 +189323,7 @@
 } ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 576, 557 ], [ 527, 555 ] ],
+	"coordList": [ [ 576, 553 ], [ 527, 552 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -189197,7 +189535,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 175, 767 ], [ 65, 816 ] ],
+	"coordList": [ [ 173, 767 ], [ 64, 816 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -192415,6 +192753,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 19,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": -30
+}
 } ],
 	"memo": "",
 	"x": -72,
@@ -192515,6 +192874,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 19,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": -30
 }
 } ],
 	"memo": "",
@@ -192617,6 +192997,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 19,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": -30
+}
 } ],
 	"memo": "",
 	"x": 144,
@@ -192670,6 +193071,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 19,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": -30
 }
 } ],
 	"memo": "",
@@ -192779,6 +193201,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
 } ],
 	"memo": "",
 	"x": 144,
@@ -192832,6 +193275,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
 }
 } ],
 	"memo": "",
@@ -192887,6 +193351,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
 } ],
 	"memo": "",
 	"x": -72,
@@ -192940,6 +193425,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
 }
 } ],
 	"memo": "",
@@ -192995,6 +193501,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
 } ],
 	"memo": "",
 	"x": 144,
@@ -193049,6 +193576,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
 } ],
 	"memo": "",
 	"x": 144,
@@ -193102,6 +193650,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
 }
 } ],
 	"memo": "",
@@ -193589,10 +194158,31 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
 } ],
 	"memo": "",
-	"x": -332,
-	"y": 455,
+	"x": -336,
+	"y": 456,
 	"width": 168,
 	"height": 48,
 	"shortcutList": []
@@ -193642,6 +194232,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
 }
 } ],
 	"memo": "",
@@ -193697,6 +194308,27 @@
 	"useCoffeeScript": false,
 	"javaScript": ""
 }
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
+}
 } ],
 	"memo": "",
 	"x": -552,
@@ -193750,6 +194382,27 @@
 	"assignScript": "",
 	"useCoffeeScript": false,
 	"javaScript": ""
+}
+}, {
+	"id": 3,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
 }
 } ],
 	"memo": "",
@@ -193851,6 +194504,27 @@
 	"priorityMostFront": false,
 	"priority": false,
 	"priorityType": 1
+}
+}, {
+	"id": 4,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 17,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 30,
+	"pan": 0,
+	"pitch": 0
 }
 } ],
 	"memo": "",
@@ -193996,7 +194670,7 @@
 } ],
 	"linkConditionList": [  ],
 	"memo": "",
-	"coordList": [ [ 250, 143 ], [ 253, 192 ] ],
+	"coordList": [ [ 236, 143 ], [ 253, 192 ] ],
 	"endPointFactor": [ -1, 586 ],
 	"visible": true,
 	"num": 0,
@@ -194431,7 +195105,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 95, 483 ], [ 144, 481 ] ],
+	"coordList": [ [ 95, 480 ], [ 144, 480 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -194547,7 +195221,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -384, 449 ], [ -332, 460 ] ],
+	"coordList": [ [ -384, 449 ], [ -336, 460 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -194576,7 +195250,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -164, 479 ], [ -72, 479 ] ],
+	"coordList": [ [ -168, 479 ], [ -72, 479 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
